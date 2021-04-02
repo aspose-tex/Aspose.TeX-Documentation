@@ -1,15 +1,14 @@
 ---
-title: Aspose.TeX Product Family
+title: Aspose.TeX for .NET
 type: docs
-url: /
-keywords: "TeX, Aspose.TeX Features, documentation"
-description: "Aspose.TeX for .NET is a high-performance library for TeX files typesetting applications in .NET."
 weight: 10
+url: /net/
+is_root: true
 ---
 
 {{% alert color="primary" %}}
 
-![Aspose.TeX for .NET logo](/home1.png)
+![Aspose.TeX for .NET logo](home1.png)
 
 **Welcome to Aspose.TeX for .NET**
 
