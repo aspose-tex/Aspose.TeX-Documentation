@@ -211,4 +211,4 @@ Output:
  * Method Aspose.TeX.TeX.CreateFormat(System.String,Aspose.TeX.TeXOptions)
  
 ## Got Queries?
-If you have any query related to Aspose.Font for .NET API, please feel free to write to reach us on [Aspose.Font forum](https://forum.aspose.com/c/font/). We'll be glad to assist you with your inquiries.
+If you have any query related to Aspose.TeX for .NET API, please feel free to write to reach us on [Aspose.TeX forum](https://forum.aspose.com/c/tex/). We'll be glad to assist you with your inquiries.
