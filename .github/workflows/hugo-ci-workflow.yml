@@ -14,10 +14,10 @@ jobs:
       - name: hugo build
         run: |
           cd aspose-tex-docs
-          git clone https://github.com/aspose-tex/Aspose.TeX-Documentation.git || (cd Aspose.TeX-Documentation && git pull)
-          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd lutsk-aspose-prototype && git pull)
+          git clone https://github.com/aspose-tex/Aspose.TeX-Documentation.git || (cd Aspose.TeX-Documentation && git stash && git pull)
+          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-prototype.git || (cd lutsk-aspose-prototype && git stash && git pull)
           cd lutsk-aspose-prototype
-          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-theme.git themes/lutsk-aspose-theme || (cd themes/lutsk-aspose-theme && git pull)
+          git clone --single-branch --branch master https://git.dev.dynabic.com/containerize-hugo/lutsk-aspose-theme.git themes/lutsk-aspose-theme || (cd themes/lutsk-aspose-theme && git stash && git pull)
           sudo npm install -D --save autoprefixer
           sudo npm install -D --save postcss-cli
           rsync --recursive --delete --force --progress ${{ secrets.PROJECTPATH }} content/
