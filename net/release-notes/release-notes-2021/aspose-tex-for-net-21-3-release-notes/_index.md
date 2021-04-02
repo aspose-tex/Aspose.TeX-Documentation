@@ -11,6 +11,7 @@ We are pleased to announce the launch of Aspose.TeX for .NET - a .NET library fo
 
 ### Supported File Types
 Aspose.TeX for .NET supports the following Font types.
+
 Input:
  * Plain text TeX files
 
