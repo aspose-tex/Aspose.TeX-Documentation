@@ -22,4 +22,4 @@ All the rest is done by the fourth line which runs format creation. The binary T
 
 Here we create [TeXOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions) class instance providing *TeXConfig.ObjectTeX()* defined by a format provider. The format provider itself is defined by an input working directory and a format name.
 
-The rest of the example must be familiar to you if you have already looked through [Typesetting TeX input](/net/typesetting-tex-input/) section.
+The rest of the example must be familiar to you if you have already looked through [Typesetting TeX input](/tex/net/typesetting-tex-input/) section.
