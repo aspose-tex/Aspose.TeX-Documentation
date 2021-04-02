@@ -10,7 +10,7 @@ The following table indicates the file formats that Aspose.TeX for .NET can load
 
 |**Format**|**Description**|**Input**|**Output**|**Remarks**|
 | :- | :- | :- | :- | :- |
-|Plain text|TeX file|{{< emoticons/tick >}}|{{< emoticons/tick >}}| Only for tracing messages output.|
+|Plain text|TeX file|{{< emoticons/tick >}}|{{< emoticons/tick >}}| Only for output of tracing messages.|
 |XPS|Typeset XPS document| |{{< emoticons/tick >}}| |
 |PDF|Typeset PDF document| |{{< emoticons/tick >}}| |
 |PNG|PNG images of typeset document| |{{< emoticons/tick >}}| |
