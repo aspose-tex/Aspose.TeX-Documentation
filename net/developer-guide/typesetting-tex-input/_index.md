@@ -70,8 +70,7 @@ Here we instantiate a [PdfDevice](https://apireference.aspose.com/tex/net/aspose
 
 ### **Excepting main TeX file as a stream, excepting terminal input, having an image format as a destination format**
 
-{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "
-Aspose.TeX.Examples-StreamInputImageOutputAndTerminalInput-TakeMainInputFromStream-AuxFromFileSystem-TakeTerminalInputFromConsole-AlternativeImagesStorage.cs" >}}
+{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-StreamInputImageOutputAndTerminalInput-TakeMainInputFromStream-AuxFromFileSystem-TakeTerminalInputFromConsole-AlternativeImagesStorage.cs" >}}
 
 This example demonstrates the usage of the version of [Typeset(...);](https://apireference.aspose.com/tex/net/aspose.tex.tex/typeset/methods/1) method that excepts main TeX file as a stream. All other auxiliary input files will be taken from 
 [InputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/inputworkingdirectory).
