@@ -1,2 +1,2 @@
 # Aspose.TeX-Doc-md
-Aspose.TeX API Documentation..
+Aspose.TeX API Documentation
