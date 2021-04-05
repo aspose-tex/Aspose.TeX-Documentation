@@ -19,7 +19,7 @@ url: /net/feature-list/
 - TIFF
 - BMP
 
-**Supported ways of input/output**
+**Supported ways of reading input and writing output**
 - File system directory
 - ZIP archive
 - Main TeX file can also be passed through a stream
