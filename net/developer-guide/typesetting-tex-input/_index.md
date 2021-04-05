@@ -12,7 +12,7 @@ Typesetting of TeX input runs by a single call of one of [Aspose.TeX.TeX.Typeset
 
 Below, we will take a look at some examples on various use cases to make understanding easier.
 
-### **Accepting TeX input from a file system directory, writing output to a file system directory, having XPS as a destination format, and writing terminal output to the console**
+### **Reading TeX input from a file system directory, writing output to a file system directory, setting up XPS as a destination format, and writing terminal output to the console**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-FileSystemInputOutputAndXpsOutput-TakeInputFromFileSystem-WriteOutputToFileSystem-WriteTerminalOutputToConsole.cs" >}}
 
@@ -44,7 +44,7 @@ The second difference is that on the fifth line we specify the terminal output t
 
 The new feature we use here is the instantiation of [XpsDevice](https://apireference.aspose.com/tex/net/aspose.tex.presentation.xps/xpsdevice) on a stream object. In this case the output XPS file will be written to this stream, and the rest of output will be routed to [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory) (except probably terminal output which may be routed separately).
 
-### **Accepting TeX input from a ZIP archive, writing output to a ZIP archive, having PDF as a destination format**
+### **Reading TeX input from a ZIP archive, writing output to a ZIP archive, setting up PDF as a destination format**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-ZipFileInputOuputAndPdfOutput-TakeInputFromZip-WriteOutputToZip.cs" >}}
 
@@ -68,7 +68,7 @@ By assignment of [TerminalOut](https://apireference.aspose.com/tex/net/aspose.te
 
 Here we instantiate a [PdfDevice](https://apireference.aspose.com/tex/net/aspose.tex.presentation.pdf/pdfdevice) class on a stream object, so that output PDF file will be written to this stream. In this case stream will pass the ouput to a file on your disc. There's also a commented option **2)** which will let you write the output PDF to a file in [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory), i.e. in the output ZIP archive.
 
-### **Accepting main TeX file as a stream, Accepting terminal input, having an image format as a destination format**
+### **Reading main TeX file as a stream, reading terminal input, setting up an image format as a destination format**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-StreamInputImageOutputAndTerminalInput-TakeMainInputFromStream-AuxFromFileSystem-TakeTerminalInputFromConsole-AlternativeImagesStorage.cs" >}}
 
