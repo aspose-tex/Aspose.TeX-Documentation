@@ -11,7 +11,7 @@ url: /net/product-overview/
 
 **Welcome to Aspose.TeX for .NET**
 
-Aspose.TeX is a .NET library for typesetting of TeX files. It can present TeX files in different graphic formats like XPS, PDF, PNG, JPEG, TIFF and BMP. It also outputs tracing info like any other TeX engine does. The API provides different ways of feeding input and obtaining output. And, as an advanced feature, it lets you create your own TeX format if you wish to typeset a number of documents designed uniformely.
+Aspose.TeX is a .NET library for typesetting of TeX files. It can present TeX files in various graphic formats like XPS, PDF, PNG, JPEG, TIFF and BMP. It also outputs tracing info like any other TeX engine does. The API provides various ways of feeding input and getting output. And, as an advanced feature, it lets you create your own TeX format if you wish to typeset a number of documents designed uniformely.
 
 {{% /alert %}}
 ## **Declaration**
