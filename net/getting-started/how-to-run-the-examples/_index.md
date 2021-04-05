@@ -9,9 +9,6 @@ url: /net/how-to-run-the-examples/
 Please make sure you meet the following requirements before downloading and running the examples.
 
  1. Visual Studio 2010 or higher
- 1. NuGet Package Manager installed in Visual Studio. Make sure that the latest NuGet API version is installed in Visual Studio. For details on how to install NuGet package manager please check http://docs.nuget.org/ndocs/guides/install-nuget
- 1. Go to Tools->Options->NuGet Package Manager->Package Sources and make sure that the option nuget.org is checked
- 1. The example project uses NuGet Automatic Package Restore feature, therefore, you should have an active internet connection.
 
 ## **Download from GitHub**
 All examples of Aspose.TeX for .NET are hosted on [GitHub](https://github.com/aspose-TeX/Aspose.TeX-for-.NET).
