@@ -12,7 +12,7 @@ Suppose you want to have a number of documents designed in a similar way. To do 
 
 On the first line we again create [TeXOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions) class instance. This time we pass *TeXConfig.ObjectIniTeX* property value. This is the same is *TeXConfig.ObjectTeX()* except that **plain TeX** format is not loaded and **Object TeX**'s page metrics are not initialized, which lets you create your format from scratch.
 
-Input and output are specified to be taken/retrieved from/to disc.
+Input and output are specified to be read/written from/to disk.
 
 All the rest is done by the fourth line which runs format creation. The binary TeX format file will be written accordingly to you output working directory specification.
 
