@@ -62,11 +62,11 @@ And the last line is necessary to finalize the output ZIP archive.
 
 By assignment of [TerminalOut](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/terminalout) property we force terminal output to be written to a file in the output ZIP archive.
 
-### **Writing typeset XPS file to an external stream**
+### **Writing typeset PDF file to an external stream**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-TypesetPdfWrittenToExternalStream-WriteOutputPdfToExternalStream.cs" >}}
 
-Here we instantiate a [PdfDevice](https://apireference.aspose.com/tex/net/aspose.tex.presentation.pdf/pdfdevice) class on a stream object, so that output PDF file will be written to this stream. In this case stream will pass the ouput to a file on your disc. There's also a commented option **2)** which will let you write the output PDF to a file in [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory), i.e. in the output ZIP archive.
+Here we instantiate a [PdfDevice](https://apireference.aspose.com/tex/net/aspose.tex.presentation.pdf/pdfdevice) class on a stream object, so that output PDF file will be written to this stream. In this case stream will pass the ouput to a file on your disk. There's also a commented option **2)** which will let you write the output PDF to a file in [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory), i.e. in the output ZIP archive.
 
 ### **Reading main TeX file as a stream, reading terminal input, setting up an image format as a destination format**
 
@@ -77,6 +77,6 @@ This example demonstrates the usage of the version of [Typeset(...);](https://ap
 
 Here we wanted to retrieve the typesetting result as a set of PNG format images (pages). To do so, we passed the instance of [ImageDevice](https://apireference.aspose.com/tex/net/aspose.tex.presentation.image/imagedevice) and set [SaveOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions) property to be a [PngSaveOptions](https://apireference.aspose.com/tex/net/aspose.tex.presentation.image/pngsaveoptions) class instance. To learn more about other implementations of [ImageSaveOptions](https://apireference.aspose.com/tex/net/aspose.tex.presentation.image/imagesaveoptions) please refer to [Aspose.TeX.Presentation.Image](https://apireference.aspose.com/tex/net/aspose.tex.presentation.image) namespace reference.
 
-The last line shows the alternative way to retrieve output images.
+The last line shows the alternative way to retrieve output images from a page-by-page array of byte arrays.
 
 
