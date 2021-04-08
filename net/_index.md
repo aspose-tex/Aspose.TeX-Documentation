@@ -8,7 +8,7 @@ is_root: true
 
 {{% alert color="primary" %}}
 
-![Aspose.TeX for .NET logo](home1.png)
+![Aspose.TeX for .NET logo](home-net.png)
 
 **Welcome to Aspose.TeX for .NET**
 

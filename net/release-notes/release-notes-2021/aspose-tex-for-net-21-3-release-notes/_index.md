@@ -10,7 +10,7 @@ url: /net/aspose-tex-for-net-21-3-release-notes/
 We are pleased to announce the launch of Aspose.TeX for .NET - a .NET library for TeX files typesetting. The API provides functionality to typeset TeX files and create custom TeX formats. 
 
 ### Supported File Types
-Aspose.TeX for .NET supports the following Font types.
+Aspose.TeX for .NET supports the following file types.
 
 Input:
  * Plain text TeX files

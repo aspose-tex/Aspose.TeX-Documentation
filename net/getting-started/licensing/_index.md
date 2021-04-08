@@ -9,9 +9,9 @@ url: /net/licensing/
 You can easily download Aspose.TeX for .NET product for evaluation purposes. Please refer to the [Aspose.TeX for .NET download page](https://www.nuget.org/packages/Aspose.TeX/) to find out the latest version. The evaluation download is same as the purchased download. The evaluation version simply becomes licensed when you add a few lines of code to apply the license.
 
 ### **Evaluation Version Limitations**
-Evaluation version of Aspose.TeX (without a license specified) provides full product functionality except that only up to four first pages can be obtained in output document. Also those pages will be stamped by evaluation mode watermark.
+Evaluation version of Aspose.TeX (without a license specified) provides full product functionality except that only up to four first pages can be obtained in output document. Also, those pages will be stamped with evaluation mode watermark.
 
-If you want to try Aspose.TeX out without evaluation limitations, request a 30 day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
+If you want to try Aspose.TeX out without evaluation limitations, request a 30-day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
 
 ## **Applying a License**
 Once you are happy with your [evaluation]() of Aspose.TeX for .NET, buy a license at the Aspose website: [Purchase Portal](http://www.aspose.com/purchase/default.aspx). Make yourself familiar with the different license types available. If you have any questions, [contact the Aspose sales team](http://www.aspose.com/corporate/contact/default.aspx) and they'll be happy to help you.
