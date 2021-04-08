@@ -36,4 +36,4 @@ This table lists important Aspose.TeX for .NET technical resources.
 |[Aspose.TeX blog](https://blog.aspose.com/category/tex/)|Check this often for information about new releases and useful tips about Aspose.TeX for .NET.|
 |[Aspose.TeX for .NET download](https://www.nuget.org/packages/aspose.tex/)|Download the latest version of Aspose.TeX for .NET from here. We release often.|
 |[Aspose.TeX for .NET support forum](https://forum.aspose.com/tex)|Post your questions and issues here for a speedy resolution.|
-|[Aspose.TeX for .NET product documentation](/tex/net/home/)|Full online documentation that includes this documentation as well as Aspose.TeX for .NET API Reference.|
+|[Aspose.TeX for .NET product documentation](/tex/net/)|Full online documentation that includes this documentation as well as Aspose.TeX for .NET API Reference.|
