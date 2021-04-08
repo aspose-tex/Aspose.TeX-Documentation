@@ -15,7 +15,7 @@ Click on the File menu and choose Open. Browse to the project folder and select 
 
 It will open the project and download the dependencies automatically. From the Project tab, browse the examples in src/main/java folder.
 
-To run an example, just right click on the file and choose “Run ..”, the example will be executed and the output will be shown in the built in console output window.
+To run an example, just right click on the file and choose "Run ..", the example will be executed and the output will be shown in the built in console output window.
 
 ## Eclipse
 Click on File menu and choose Import. Select Maven - Existing Maven Projects. Browse to the folder that you cloned or downloaded from GitHub and select pom.xml file.
