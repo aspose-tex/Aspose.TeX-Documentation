@@ -11,7 +11,7 @@ Evaluation version of Aspose.TeX (without a license specified) provides full pro
 If you want to try Aspose.TeX out without evaluation limitations, request a 30-day temporary license. Please refer to [How to get a Temporary License?](http://www.aspose.com/corporate/purchase/faqs/temporary-license.aspx) for more information.
 
 ### **Apply License using File or Stream Object**
-Use the [License.SetLicense](https://apireference.aspose.com/tex/java/aspose.tex/license/) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.TeX.dll and specify the filename, without a path, as shown below.
+Use the [License.SetLicense](https://apireference.aspose.com/tex/java/com.aspose.tex/License#setLicense-java.lang.String-) method to license the component. The easiest way to set a license is to put the license file in the same folder as the Aspose.TeX.dll and specify the filename, without a path, as shown below.
 #### **Loading a License from File**
 This code snippet initializes a license stored in a file or in an embedded resource.
 
