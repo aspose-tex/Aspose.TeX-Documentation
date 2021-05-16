@@ -49,3 +49,26 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.TeX for Java API Reference Guide](https://apireference.aspose.com/tex/java)
 - [Aspose.TeX for Java Free Support Forum](https://forum.aspose.com/c/tex)
 - [Aspose.TeX for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
+{{% alert color="primary" %}}
+
+![Aspose.TeX for C++ logo](home-cpp.png)
+
+**Welcome to Aspose.TeX for C++**
+
+Aspose.TeX is a C++ library for TeX files typesetting. It can present TeX input in various graphic formats like XPS, PDF, PNG, JPEG, TIFF and BMP. It also outputs tracing info like any other TeX engine does. The API provides various ways of passing TeX input and obtaining output. And, as an advanced feature, it lets you create your own TeX format if you wish to typeset a number of documents designed uniformly.
+
+{{% /alert %}}
+
+## **Aspose.TeX for C++ Resources**
+
+Following are the links to some useful resources you may need to accomplish your tasks.
+- [Aspose.TeX for C++ Online Documentation](cpp)
+- [Aspose.TeX for C++ Features](cpp/feature-list)
+- [Aspose.TeX for C++ Release Notes](cpp/release-notes)
+- [Aspose.TeX for C++ Product Page](https://products.aspose.com/tex/cpp)
+- [Install Aspose.TeX for C++ NuGet Package](https://www.nuget.org/packages/Aspose.TeX.Cpp/)
+- [Aspose.TeX for C++ API Reference Guide](https://apireference.aspose.com/tex/cpp)
+- [Aspose.TeX for C++ Free Support Forum](https://forum.aspose.com/c/tex)
+- [Aspose.TeX for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
+
