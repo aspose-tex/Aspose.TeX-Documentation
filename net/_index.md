@@ -3,6 +3,8 @@ title: Aspose.TeX for .NET
 type: docs
 weight: 10
 url: /net/
+aliases:
+  - /display/texnet
 is_root: true
 ---
 
