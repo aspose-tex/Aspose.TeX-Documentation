@@ -2,7 +2,7 @@
 title: Aspose.TeX for Java 21.8 Release Notes
 type: docs
 weight: 10
-url: /net/aspose-tex-for-java-21-8-release-notes/
+url: /java/aspose-tex-for-java-21-8-release-notes/
 ---
 
 ## Aspose.TeX 21.8 for Java has been released!
