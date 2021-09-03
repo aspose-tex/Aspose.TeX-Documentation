@@ -1,7 +1,7 @@
 ---
 title: Aspose.TeX for .NET 21.8 Release Notes
 type: docs
-weight: 10
+weight: 80
 url: /net/aspose-tex-for-net-21-8-release-notes/
 ---
 
