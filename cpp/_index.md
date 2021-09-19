@@ -1,7 +1,7 @@
 ---
 title: Aspose.TeX for C++
 type: docs
-weight: 10
+weight: 30
 url: /cpp/
 is_root: true
 ---
