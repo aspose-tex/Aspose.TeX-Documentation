@@ -129,4 +129,4 @@ And here are two pages of output:
 
 Naturally, we do not pretend to have any complete answer to the question "What is LaTeX?", since this is quite a large amount of information. Since writing a LaTeX file is still programming, you will have to spend some time if you want to get better acquainted with it. Do you want it or not.
 
-**You may also check out the free [web app](https://products.aspose.app/tex/conversion/latex-to-png) built based on [Aspose.TeX API](https://products.aspose.com/tex/net/).**
+**You may also check out the free [web app](https://products.aspose.app/tex/conversion/latex-to-png) built based on [Aspose.TeX API](https://products.aspose.com/tex/net/)**
