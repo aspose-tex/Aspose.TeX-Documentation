@@ -8,7 +8,7 @@ url: /net/aspose-tex-output/
 Please, refer to **Aspose.TeX for .NET** [API reference](https://apireference.aspose.com/tex/net/aspose.tex.io) for formal definitions of I/O implementation.
 
 ## **The concept of the output directory**
-Since I/O primitives of the TeX language can only deal with file names, Aspose.TeX defines a directory as a mapping between names and bulks of data. The bulks of data are supposed to be files, or streams, or arrays, or whatever else. The API allows us to specify the input and output working directories separately. It provides the general [IOutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputworkingdirectory) interface for the output, which the user can implement for their own purposes. It also provides it's own implementations, which will be discussed below. The interface extends [IInputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory), since the engine may first create and write a file, and then read it back. The interface's own method [GetOuputFile](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputworkingdirectory/methods/getoutputfile) returns the stream to write to, as opposed to stream to read returned by [GetFile](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory/methods/getfile).
+Since I/O primitives of the TeX language can only deal with file names, Aspose.TeX defines a directory as a mapping between names and bulks of data. The bulks of data are supposed to be files, or streams, or arrays, or whatever else. The API allows us to specify the input and output working directories separately. It provides the general [IOutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputworkingdirectory) interface for the output, which the user can implement for their own purposes. It also provides it's own implementations, which will be discussed below. The interface extends [IInputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory), since the engine may first create and write a file, and then read it back. The interface's own method [GetOutputFile()](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputworkingdirectory/methods/getoutputfile) returns the stream to write to, as opposed to the stream to read returned by [GetFile()](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory/methods/getfile).
 
 ### **Writing file output to the disk file system**
 
@@ -30,7 +30,7 @@ First, we create an output stream for the ZIP file. Then, after creating the con
 
 ## **The concept of the output terminal**
 
-There's another important part of the output --- the terminal output. As for this one, **Aspose.TeX for .NET** defines the general [IOutputTerminal](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputterminal) interface having only one method that returns a [TextWriter](https://docs.microsoft.com/en-us/dotnet/api/system.io.textwriter) implementation instance. Provided implementations are dicussed below.
+There's another important part of the output --- the terminal output. As for this one, **Aspose.TeX for .NET** defines the general [IOutputTerminal](https://apireference.aspose.com/tex/net/aspose.tex.io/ioutputterminal) interface having only one property that returns a [TextWriter](https://docs.microsoft.com/en-us/dotnet/api/system.io.textwriter) implementation instance. Provided implementations are dicussed below.
 
 ### **Writing terminal output to the console**
 
