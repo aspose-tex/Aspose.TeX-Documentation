@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /net/latex-to-png/
 keywords: latex to png, latex png
-description: This page is dedicated to LaTeX to PNG conversions.
+description: This page is dedicated to LaTeX to PNG conversion using Aspose.TeX for .NET API.
 ---
 
 ## **How to convert LaTeX to PNG**
@@ -15,7 +15,7 @@ Let's take a detailed look at the code in C# providing the simplest way to conve
 
 So, the first thing we need to do (well, sometimes not the very first) is to create an instance of the [TeXOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions) class. The only static method that does this is [ConsoleAppOptions()](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/methods/consoleappoptions), so let's not be puzzled by the meaning of its name. The method takes an [instance](https://apireference.aspose.com/tex/net/aspose.tex/texconfig/properties/objectlatex) of the [TeXConfig](https://apireference.aspose.com/tex/net/aspose.tex/texconfig) class, which is exactly suitable for converting a [LaTeX file](/tex/net/latex-io/#latex-file). This configuration tells the Object TeX engine to load the Object LaTeX format and to be ready to accept the LaTeX file. Object LaTeX format is actually just the [LaTeX](/tex/net/what-is-latex/) format, except that it uses [Object TeX](/tex/net/aspose-tex-and-object-tex/#object-tex) specific primitives to set up the page metrics.
 
-The first of the required options is [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory) which defines the space, or area, where the TeX output will be written. [Here](/tex/net/aspose-tex-output/) are the details about the output directory concept in **Aspose.TeX for .NET**. In this example we use the [OutputFileSystemDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/outputfilesystemdirectory) class, which lets us write the output in the specified directory, or folder.
+The first of the required options is [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory) which defines the space, or area, where the TeX output will be written. [Here](/tex/net/aspose-tex-output/) are the details about the output directory concept in **Aspose.TeX for .NET**. In this example we use the [OutputFileSystemDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/outputfilesystemdirectory) class, which lets us write the output to the specified directory, or folder.
 
 The second option is a [SaveOptions](https://apireference.aspose.com/tex/net/aspose.tex.presentation/saveoptions) class instance which will control the transformation of the [object model](/tex/net/aspose-tex-and-object-tex/#why-the-new-tex-is-object) to the target format. Since we are converting LaTeX to PNG, it's the [PngSaveOptions](https://apireference.aspose.com/tex/net/aspose.tex.presentation.image/pngsaveoptions) class instance, which lets us specify the resolution of the output images.
 
@@ -53,6 +53,8 @@ The *"page-n.png"* file(s) will be written to any path we specify. Unlike [PDF o
 
 ## **About input options**
 
-In case our input file requires dependencies that are not included in the basic LaTeX system and supported packages, we MUST set the [InputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/inputworkingdirectory) option the similar way we set the [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory) option and put the dependencies in that directory. In case the main input file is stored in that directory, the path to the main input file is not required. The file can even be stored in a subdirectory of the input directory. And so any of the dependencies can. [Here](/tex/net/aspose-tex-input/) are the details about the input directory concept in **Aspose.TeX for .NET** and provided implementations.
+In case our main input file requires dependencies, for example, packages, that are not included in the basic LaTeX system and supported packages, we MUST set the [RequiredInputDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/requiredinputdirectory) option the similar way we set the [OutputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/outputworkingdirectory) option and put the dependencies in that directory. Dependecies may be arbitrarily organized in subdirectories. In case we have our own files to include along the typesetting process, say external graphics files, we MUST also set the [InputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/inputworkingdirectory) using the path to the location where those files are collected. We may also place the main input file somewhere inside the input directory and specify the relative path in the `run()` method (or specify no path at all if the main input file is in the root). [Here](/tex/net/aspose-tex-input/) are the details about the input directory concept in **Aspose.TeX for .NET** and provided implementations.
 
 Other TeX job options are discussed [here](/tex/net/other-options/).
+
+**You may also check out the free LaTeX-to-PNG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-png) built based on [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**

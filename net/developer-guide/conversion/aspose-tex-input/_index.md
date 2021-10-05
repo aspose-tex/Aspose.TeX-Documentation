@@ -8,7 +8,7 @@ url: /net/aspose-tex-input/
 Please, refer to **Aspose.TeX for .NET** [API reference](https://apireference.aspose.com/tex/net/aspose.tex.io) for formal definitions of I/O implementation.
 
 ## **The concept of the input directory**
-Since I/O primitives of the TeX language can only deal with file names, **Aspose.TeX for .NET** defines a directory as a mapping between names and bulks of data. The bulks of data are supposed to be files, or streams, or arrays, or whatever else. The API allows us to specify the input and output working directories separately. It provides the general [IInputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory) interface, which the user can implement for their own purposes. It also provides its own implementations, which will be discussed below. The interface defines only one method, [GetFile](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory/methods/getfile), which returns the data stream and determines the full name of the file, while taking some, hypothetically different, name as the first agrument, which, in fact, is the mapping key.
+Since I/O primitives of the TeX language can only deal with file names, **Aspose.TeX for .NET** defines a directory as a mapping between names and bulks of data. The bulks of data are supposed to be files, or streams, or arrays, or whatever else. The API allows us to specify the input and output working directories separately. It provides the general [IInputWorkingDirectory](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory) interface, which the user can implement for their own purposes. It also provides its own implementations, which will be discussed below. The interface defines the [GetFile()](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputworkingdirectory/methods/getfile) method, which returns the data stream and determines the full name of the file, while taking some, hypothetically different, name as the first agrument, which, in fact, is the mapping key.
 
 ### **Getting file input from the disk file system**
 
@@ -28,7 +28,7 @@ First, we create the stream containing the ZIP file. Then, after creating the co
 
 ## **The concept of the input terminal**
 
-Now it's time to remember that there is also the terminal input. As for this one, **Aspose.TeX for .NET** defines the general [IInputTerminal](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputterminal) interface having only one method that returns a  [TextReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.textreader) implementation instance. Provided implementations are dicussed below.
+Now it's time to remember that there is also the terminal input. As for this one, **Aspose.TeX for .NET** defines the general [IInputTerminal](https://apireference.aspose.com/tex/net/aspose.tex.io/iinputterminal) interface having only one property that returns a  [TextReader](https://docs.microsoft.com/en-us/dotnet/api/system.io.textreader) implementation instance. Provided implementations are dicussed below.
 
 ### **Getting terminal input from the console**
 

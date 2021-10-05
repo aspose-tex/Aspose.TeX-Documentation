@@ -106,4 +106,4 @@ height=15mm,width=25mm]{sample-image.png} % changes both width and height indepe
 To learn more about the `graphics` package bundle features, see the documentation [here](https://ctan.org/pkg/graphics) and
 [here](http://mirrors.ctan.org/macros/latex/required/graphics/graphics.pdf).
 
-**You may also check out the free [web app](https://products.aspose.app/tex/conversion/latex-to-pdf) built based on [Aspose.TeX API](https://products.aspose.com/tex/net/).**
+**You may also check out the free conversion [web app](https://products.aspose.app/tex/conversion/latex/) built based on [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**

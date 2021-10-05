@@ -37,4 +37,4 @@ The last lines of the example print two artifacts of math formula rendering - th
 
 This is the most general use case for LaTeX math formula rendering.
 
-**You may also check out the free [web app](https://products.aspose.app/tex/mathrenderer) built based on the feature implemented within [Aspose.TeX API](https://products.aspose.com/tex/net/).**
+**You may also check out the free [web app](https://products.aspose.app/tex/mathrenderer) built based on the feature implemented within [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
