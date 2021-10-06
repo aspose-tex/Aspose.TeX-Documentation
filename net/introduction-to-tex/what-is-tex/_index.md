@@ -19,7 +19,7 @@ Now, if we want to typeset another document, in the program of which this subseq
 
 The engine also contains a number of internal registers, or *internal parameters*, which can be accessed using control sequences. In addition to macro definitions, a format may contain initialization expressions for these parameters.
 
-It happened that [Donald E. Knuth](https://en.wikipedia.org/wiki/Donald_Knuth), defined a language similar to **(L2)**, but with a much wider set of primitives, which he called TeX. He also created an engine that understood (and still does) TeX language. He also called it TeX.
+It happened that <a href="https://en.wikipedia.org/wiki/Donald_Knuth" target=_blank rel="nofollow">Donald E. Knuth</a>, defined a language similar to **(L2)**, but with a much wider set of primitives, which he called TeX. He also created an engine that understood (and still does) TeX language. He also called it TeX.
 
 Happily, these weren't the only things he did. He also proposed the macro extension, or format, he called *Plain* TeX, which made writing programs more convenient. The initial set of TeX's primitives is sometimes called VirTeX ("Vir" for "virgin"), and, formally, is also a format, when considered along with defaults of internal parameters.
 

@@ -9,9 +9,9 @@ description: This page briefly answers the question "What is LaTeX?"
 
 So, What is LaTeX?
 
-LaTeX is the TeX format, in short.
+LaTeX is the [TeX](/tex/net/what-is-tex/) format, in short.
 
-LaTeX (*LAH-tekh or LAY-tekh*, often stylized as LATEX) is a software system for document preparation that was originally written in the early 1980s by [Leslie Lamport](https://en.wikipedia.org/wiki/Leslie_Lamport) at [SRI International](https://en.wikipedia.org/wiki/SRI_International). This is what [Wikipedia](https://en.wikipedia.org/wiki/LaTeX) tells.
+LaTeX (*LAH-tekh or LAY-tekh*, often stylized as LATEX) is a software system for document preparation that was originally written in the early 1980s by <a href="https://en.wikipedia.org/wiki/Leslie_Lamport" target=_blank rel="nofollow">Leslie Lamport</a> at <a href="https://en.wikipedia.org/wiki/SRI_International" target=_blank rel="nofollow">SRI International</a>. This is what <a href="https://en.wikipedia.org/wiki/LaTeX" target=_blank rel="nofollow">Wikipedia</a> tells.
 
 Answering the question "What is LaTeX?" we would like to mention some of its features.
 
