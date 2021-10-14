@@ -3,6 +3,10 @@ title: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /net/latex-math-formula-rendering/
+lastmod: "2021-10-14"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 The API reference section related to this topic is [here](https://apireference.aspose.com/tex/net/aspose.tex.features). In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:

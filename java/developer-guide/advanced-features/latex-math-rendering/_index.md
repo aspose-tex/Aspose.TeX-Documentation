@@ -3,6 +3,10 @@ title: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /java/latex-math-formula-rendering/
+lastmod: "2021-10-14"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:

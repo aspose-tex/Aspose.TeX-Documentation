@@ -5,6 +5,10 @@ weight: 10
 url: /net/latex-to-png/
 keywords: latex to png, latex png
 description: This page is dedicated to LaTeX to PNG conversion using Aspose.TeX for .NET API.
+lastmod: "2021-10-14"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 ## **How to convert LaTeX to PNG**

@@ -5,6 +5,10 @@ weight: 16
 url: /net/what-is-latex/
 keywords: what is latex, latex what is it
 description: This page briefly answers the question "What is LaTeX?"
+lastmod: "2021-10-14"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 So, What is LaTeX?

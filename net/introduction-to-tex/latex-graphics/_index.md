@@ -4,6 +4,10 @@ linktitle: LaTeX graphics
 type: docs
 weight: 18	
 url: /net/latex-graphics/
+lastmod: "2021-10-14"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 ## **LaTeX graphics**
