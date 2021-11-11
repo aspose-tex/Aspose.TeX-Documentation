@@ -7,7 +7,7 @@ url: /net/aspose-tex-for-net-21-11-release-notes/
 
 ## Aspose.TeX 21.11 for .NET has been released!
 
-Object TeX support for line stroke properties manipulation. Support for pict2e package has been implemented.
+Support for hyperref package has been implemented.
 
 | Key | Summary | Category |
 |---|---|---|
