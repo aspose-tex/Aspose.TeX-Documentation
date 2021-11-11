@@ -1,7 +1,7 @@
 ---
 title: Aspose.TeX for Java 21.11 Release Notes
 type: docs
-weight: 90
+weight: 110
 url: /java/aspose-tex-for-java-21-11-release-notes/
 ---
 
