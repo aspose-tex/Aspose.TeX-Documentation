@@ -15,11 +15,6 @@ Object TeX support for line stroke properties manipulation. Support for pict2e p
  
 ## Public API
 ### Added APIs
- * Property Aspose.TeX.TeXOptions.RequiredInputDirectory
-
-### Renamed APIs
-
-### Modified APIs
  * Property Aspose.TeX.TeXOptions.IgnoreMissingPackages
  * Method Aspose.TeX.Presentation.Device.AddBookmark(System.String,System.Drawing.PointF)
  * Method Aspose.TeX.Presentation.Device.AddHyperlink(System.Drawing.RectangleF,System.Drawing.Pen,System.String)
@@ -29,6 +24,10 @@ Object TeX support for line stroke properties manipulation. Support for pict2e p
  * Method Aspose.TeX.Presentation.Image.ImageDevice.AddHyperlink(System.Drawing.RectangleF,System.Drawing.Pen,System.String)
  * Method Aspose.TeX.Presentation.Xps.XpsDevice.AddBookmark(System.String,System.Drawing.PointF)
  * Method Aspose.TeX.Presentation.Xps.XpsDevice.AddHyperlink(System.Drawing.RectangleF,System.Drawing.Pen,System.String)
+
+### Renamed APIs
+
+### Modified APIs
 
 ### Removed APIs
  
