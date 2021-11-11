@@ -7,11 +7,11 @@ url: /java/aspose-tex-for-java-21-11-release-notes/
 
 ## Aspose.TeX 21.11 for Java has been released!
 
-Support for hyperref package has been implemented.
+Support for *hyperref* package has been implemented.
 
 | Key | Summary | Category |
 |---|---|---|
-| TEXNET-157 | Adapt hyperref package | Enhancement |
+| TEXNET-157 | Adapt *hyperref* package | Enhancement |
  
 ## Public API
 ### Added APIs
