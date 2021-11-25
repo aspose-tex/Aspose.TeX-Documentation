@@ -1,8 +1,8 @@
 ---
-title: Aspose.TeX for C++ 21.9 Release Notes
+title: Aspose.TeX for C++ 21.11 Release Notes
 type: docs
 weight: 10
-url: /cpp/aspose-tex-for-cpp-21-9-release-notes/
+url: /cpp/aspose-tex-for-cpp-21-11-release-notes/
 ---
 
 ## Improvements and Changes
