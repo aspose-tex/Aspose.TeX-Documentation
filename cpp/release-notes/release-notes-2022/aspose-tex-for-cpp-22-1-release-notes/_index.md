@@ -1,13 +1,14 @@
 ---
-title: Aspose.TeX for C++ 21.9 Release Notes
+title: Aspose.TeX for C++ 22.1 Release Notes
 type: docs
-weight: 9
-url: /cpp/aspose-tex-for-cpp-21-9-release-notes/
+weight: 12
+url: /cpp/aspose-tex-for-cpp-22-1-release-notes/
 ---
 
 ## Improvements and Changes
 
-Aspose.TeX for  C++ 21.9 is based on the latest [Aspose.TeX for .NET 21.9](/tex/net/aspose-tex-for-net-21-9-release-notes/)
+Aspose.TeX for C++ 22.1  is ready for use with Aspose c++ products ver 22.1.
+The dll files are signed Aspose certificate now.
 
 You can consult Aspose.TeX for C++ [API reference](https://apireference.aspose.com/tex/cpp/) for documentation.
  

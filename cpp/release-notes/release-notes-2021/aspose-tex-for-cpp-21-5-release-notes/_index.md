@@ -1,7 +1,7 @@
 ---
 title: Aspose.TeX for C++ 21.5 Release Notes
 type: docs
-weight: 10
+weight: 11
 url: /cpp/aspose-tex-for-cpp-21-5-release-notes/
 ---
 
