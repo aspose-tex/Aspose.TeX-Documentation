@@ -1,7 +1,7 @@
 ---
 title: Aspose.TeX for .NET 22.2 Release Notes
 type: docs
-weight: 10
+weight: 20
 url: /net/aspose-tex-for-net-22-2-release-notes/
 ---
 
@@ -25,8 +25,10 @@ Support for `eurosym` package has been implemented.
  * Type Aspose.TeX.Presentation.IFragmentRasterizer
  * Method Aspose.TeX.Presentation.IFragmentRasterizer.StartFragment
  * Method Aspose.TeX.Presentation.IFragmentRasterizer.EndFragment
- * Method Aspose.TeX.Presentation.IFragmentRasterizer.StartFragment
- * Method Aspose.TeX.Presentation.IFragmentRasterizer.EndFragment
+ * Type Aspose.TeX.Presentation.IInteractiveDevice
+ * Method Aspose.TeX.Presentation.IInteractiveDevice.AddBookmark(System.String,System.Drawing.PointF)
+ * Method Aspose.TeX.Presentation.Pdf.PdfDevice.StartFragment
+ * Method Aspose.TeX.Presentation.Pdf.PdfDevice.EndFragment
  * Method Aspose.TeX.Presentation.Xps.XpsDevice.StartFragment
  * Method Aspose.TeX.Presentation.Xps.XpsDevice.EndFragment
 
