@@ -5,7 +5,7 @@ weight: 20
 url: /java/aspose-tex-for-java-22-2-release-notes/
 ---
 
-## Aspose.TeX 21.12 for Java has been released!
+## Aspose.TeX 22.2 for Java has been released!
 
 | Key | Summary | Category |
 |---|---|---|
