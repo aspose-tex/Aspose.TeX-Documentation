@@ -1,5 +1,6 @@
 ---
-title: Other ways to provide the main input file
+title: Other ways to provide the main input file | .NET
+linktitle: Other ways to provide the main input file
 type: docs
 weight: 13
 url: /net/other-ways-of-main-input/

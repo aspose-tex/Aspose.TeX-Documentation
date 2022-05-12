@@ -1,5 +1,6 @@
 ---
-title: Other target formats
+title: Other target conversion formats | .NET
+linktitle: Other target formats
 type: docs
 weight: 12
 url: /net/other-target-formats/

@@ -1,5 +1,6 @@
 ---
-title: LaTeX math formulas rendering
+title: LaTeX math formulas rendering | Java
+linktitle: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /java/latex-math-formula-rendering/

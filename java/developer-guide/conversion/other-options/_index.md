@@ -1,5 +1,6 @@
 ---
-title: Other options
+title: Other managing TeX options | Java
+linktitle: Other options
 type: docs
 weight: 17
 url: /java/other-options/

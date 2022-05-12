@@ -1,5 +1,6 @@
 ---
-title: Advanced Features 
+title: Advanced Features | .NET
+linktitle: Advanced Features 
 type: docs
 weight: 20
 url: /net/advanced-features/

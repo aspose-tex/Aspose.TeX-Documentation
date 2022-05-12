@@ -1,5 +1,6 @@
 ---
-title: LaTeX to PNG
+title: LaTeX to PNG | .NET
+linktitle: LaTeX to PNG
 type: docs
 weight: 10
 url: /net/latex-to-png/

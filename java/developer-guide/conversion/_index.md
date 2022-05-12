@@ -1,5 +1,6 @@
 ---
-title: Conversion
+title: Conversion | Java
+linktitle: Conversion
 type: docs
 weight: 10
 url: /java/conversion/

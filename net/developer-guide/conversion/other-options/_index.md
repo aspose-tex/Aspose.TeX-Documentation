@@ -1,5 +1,6 @@
 ---
-title: Other options
+title: Other managing TeX options | .NET
+linktitle: Other options
 type: docs
 weight: 17
 url: /net/other-options/

@@ -1,5 +1,6 @@
 ---
-title: LaTeX to PNG
+title: LaTeX to PNG | Java
+linktitle: LaTeX to PNG
 type: docs
 weight: 10
 url: /java/latex-to-png/

@@ -1,5 +1,6 @@
 ---
-title: Other TeX formats
+title: Other TeX conversion output formats | .NET
+linktitle: Other TeX formats
 type: docs
 weight: 18
 url: /net/other-tex-formats/

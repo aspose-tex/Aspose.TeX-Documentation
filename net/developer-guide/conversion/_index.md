@@ -1,5 +1,6 @@
 ---
-title: Conversion
+title: Conversion | .NET
+linktitle: Conversion
 type: docs
 weight: 10
 url: /net/conversion/

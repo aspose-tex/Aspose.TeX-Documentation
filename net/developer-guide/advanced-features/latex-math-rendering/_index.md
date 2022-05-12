@@ -1,5 +1,6 @@
 ---
-title: LaTeX math formulas rendering
+title: LaTeX math formulas rendering | .NET
+linktitle: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /net/latex-math-formula-rendering/

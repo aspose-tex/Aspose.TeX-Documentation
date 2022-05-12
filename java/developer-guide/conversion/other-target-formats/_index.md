@@ -1,5 +1,6 @@
 ---
-title: Other target formats
+title: Other target conversion formats | Java
+linktitle: Other target formats
 type: docs
 weight: 12
 url: /java/other-target-formats/

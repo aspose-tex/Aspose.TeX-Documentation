@@ -1,5 +1,6 @@
 ---
-title: Other ways to provide the main input file
+title: Other ways to provide the main input file | Java
+linktitle: Other ways to provide the main input file
 type: docs
 weight: 13
 url: /java/other-ways-of-main-input/

@@ -1,5 +1,6 @@
 ---
-title: Aspose.TeX's input interface
+title: Aspose.TeX's input interface | Java
+linktitle: Aspose.TeX's input interface
 type: docs
 weight: 14
 url: /java/aspose-tex-input/

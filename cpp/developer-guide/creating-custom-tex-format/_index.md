@@ -1,5 +1,6 @@
 ---
-title: Creating a custom TeX format
+title: Creating a custom TeX format | C++
+linktitle: Creating a custom TeX format
 type: docs
 weight: 10
 url: /cpp/creating-custom-tex-format/

@@ -1,5 +1,6 @@
 ---
-title: Aspose.TeX's output interface
+title: Aspose.TeX's output interface | Java
+linktitle: Aspose.TeX's output interface
 type: docs
 weight: 15
 url: /java/aspose-tex-output/

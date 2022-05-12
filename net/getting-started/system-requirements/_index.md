@@ -1,5 +1,6 @@
 ---
-title: System Requirements
+title: System Requirements | .NET
+linktitle: System Requirements
 type: docs
 weight: 50
 url: /net/system-requirements/

@@ -1,5 +1,6 @@
 ---
-title: LaTeX to PDF
+title: LaTeX to PDF | Java
+linktitle: LaTeX to PDF
 type: docs
 weight: 11
 url: /java/latex-to-pdf/

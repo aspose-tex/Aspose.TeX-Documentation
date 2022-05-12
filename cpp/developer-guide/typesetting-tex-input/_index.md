@@ -1,5 +1,6 @@
 ---
-title: Typesetting TeX input
+title: Typesetting TeX input | C++
+linktitle: Typesetting TeX input
 type: docs
 weight: 10
 url: /cpp/typesetting-tex-input/
