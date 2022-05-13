@@ -1,8 +1,10 @@
 ---
-title: Other target formats
+title: Other target conversion formats | .NET
+linktitle: Other target formats
 type: docs
 weight: 12
 url: /net/other-target-formats/
+description: Conversion functionality of Aspose.TeX API solution for .NET lets convert LaTeX files to a number of other raster image formats. Here are some code examples.
 ---
 
 ## **Image formats**

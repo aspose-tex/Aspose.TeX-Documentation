@@ -1,8 +1,10 @@
 ---
-title: Aspose.TeX's input interface
+title: Aspose.TeX's input interface | Java
+linktitle: Aspose.TeX's input interface
 type: docs
 weight: 14
 url: /java/aspose-tex-input/
+description: Conversion functionality of Aspose.TeX API solution for Java with TeX, as an input format is explained here with the code examples.
 ---
 
 Please, refer to **Aspose.TeX for Java** [API reference](https://apireference.aspose.com/tex/java/com.aspose.tex/package-frame) for formal definitions of I/O implementation.

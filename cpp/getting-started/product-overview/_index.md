@@ -1,8 +1,10 @@
 ---
-title: Product Overview
+title: Product Overview | C++
+linktitle: Product Overview
 type: docs
 weight: 10
 url: /cpp/product-overview/
+description: Aspose.TeX is a C++ library for typesetting of TeX files. It provides you with the rich functionality like conversion or creating your own TeX format.
 ---
 
 {{% alert color="primary" %}}

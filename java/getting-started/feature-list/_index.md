@@ -1,8 +1,10 @@
 ---
-title: Feature List
+title: Feature List | Java
+linktitle: Feature List
 type: docs
 weight: 30
 url: /java/feature-list/
+description: Add the TeX files manipulation functionality to your own solution. Learn the features Aspose.TeX API solution for Java offers to you.
 ---
 
 

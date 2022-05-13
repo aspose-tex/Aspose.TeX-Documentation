@@ -3,6 +3,7 @@ title: LaTeX I/O
 type: docs
 weight: 17
 url: /net/latex-io/
+description: This page briefly describes the peculiarities of working with LaTeX as an output or input format and the  *.aux* file as a mandatory part of LaTeX.
 ---
 
 ## **LaTeX file**

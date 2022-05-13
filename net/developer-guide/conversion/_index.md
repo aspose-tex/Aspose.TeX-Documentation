@@ -1,8 +1,10 @@
 ---
-title: Conversion
+title: Conversion | .NET
+linktitle: Conversion
 type: docs
 weight: 10
 url: /net/conversion/
+Conversion functionality of Aspose.TeX API solution for .NET supports next output formats TeX, XPS, PDF, PNG, JPEG, TIFF, and PNG. 
 ---
 
 If you have already read ["Introduction to TeXs"](/tex/net/introduction-to-tex/), then you probably feel that the use of the words *"convert"* and *"conversion"* is not quite appropriate in the context of TeX, since the typesetting of a TeX file is not really a mapping from one format to another. Nevertheless, following the tradition and tastes of the customer, we allow the use of these words, and in this part we will use them when it is most appropriate. Moreover, from time to time we may also use (OMG) the words *"transform"* and *"transformation"*.

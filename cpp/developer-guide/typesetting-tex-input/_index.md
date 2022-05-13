@@ -1,8 +1,10 @@
 ---
-title: Typesetting TeX input
+title: Typesetting TeX input | C++
+linktitle: Typesetting TeX input
 type: docs
 weight: 10
 url: /cpp/typesetting-tex-input/
+description: Aspose.TeX API solution for C++ offers you two methods that allow passing main TeX file as a stream or by a file name specification.
 ---
 ## **Typesetting TeX input**
 Typesetting of TeX input runs by a single call of one of [Aspose::TeX::TeX::Typeset(...);](https://apireference.aspose.com/tex/cpp/aspose.tex/tex) methods. The way typesetting will be performed is defined by a [TeXOptions](https://apireference.aspose.com/tex/cpp/aspose.tex/texoptions) class instance passed as the argument. Also, all three methods accept a [Device](https://apireference.aspose.com/tex/cpp/aspose.tex.presentation/device) class instance which defines the output format. Two methods allow passing main TeX file as a stream or by a file name specification. The third one will prompt a file name online, i.e., from the console or whatever [IInputTerminal](https://apireference.aspose.com/tex/cpp/aspose.tex.io/iinputterminal) implementation you specify in options as input terminal.

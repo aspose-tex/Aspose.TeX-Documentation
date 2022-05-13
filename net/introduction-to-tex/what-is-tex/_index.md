@@ -4,7 +4,7 @@ type: docs
 weight: 10
 url: /net/what-is-tex/
 keywords: what is tex
-description: This page briefly answers the question "What is TeX?"
+description: This page briefly answers the question "What is TeX?" Is it one of the programming languages or it is considered to be a document format?
 lastmod: "2021-10-14"
 sitemap:
     changefreq: "weekly"

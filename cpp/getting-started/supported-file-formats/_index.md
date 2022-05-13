@@ -1,8 +1,10 @@
 ---
-title: Supported File Formats
+title: Supported File Formats | C++
+linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /cpp/supported-file-formats/
+description: This TeX manipulation solution for C++ supports TeX files for input and a variety of output formats like TeX, XPS, PDF, PNG, JPEG, TIFF and PNG.
 ---
 
 ## **Supported File Formats**

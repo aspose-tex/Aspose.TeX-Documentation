@@ -1,8 +1,10 @@
 ---
-title: Creating a custom TeX format
+title: Creating a custom TeX format | C++
+linktitle: Creating a custom TeX format
 type: docs
 weight: 10
 url: /cpp/creating-custom-tex-format/
+description: If you need wish to typeset a number of documents designed uniformly create your own TeX format with Aspose.TeX API solution for C++.
 ---
 ## **Creating a custom TeX format**
 

@@ -1,8 +1,10 @@
 ---
-title: System Requirements
+title: System Requirements | .NET
+linktitle: System Requirements
 type: docs
 weight: 50
 url: /net/system-requirements/
+description: Aspose.TeX solution for .NET can be used in any development environment that support .NET, but there are some environments are explicitly supported.
 ---
 
 ## **Supported Operating Systems**

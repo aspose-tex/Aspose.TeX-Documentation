@@ -1,8 +1,10 @@
 ---
-title: Other TeX formats
+title: Other TeX conversion output formats | .NET
+linktitle: Other TeX formats
 type: docs
 weight: 18
 url: /net/other-tex-formats/
+Conversion functionality of Aspose.TeX API solution for .NET allows converting LaTeX files as well as your own custom TeX files. Here are some code examples.
 ---
 
 It's highly unlikely that you will currently want to convert a TeX file written in any other format than LaTeX. But this is possible if you are studying the TeX language and/or internals for some reason. Anyway, **Aspose.TeX for .NET** allows you to convert files written in Plain TeX format. It also allows you to create custom formats and typeset documents designed in these formats.

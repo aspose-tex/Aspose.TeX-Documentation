@@ -3,6 +3,7 @@ title: TeX I/O
 type: docs
 weight: 12
 url: /net/tex-io/
+description: This page briefly describes the peculiarities of working with TeX as an output or input format. TeX job runs on an explicitly specified file. The file may not contain any data to typeset. 
 ---
 
 ## **TeX file**
