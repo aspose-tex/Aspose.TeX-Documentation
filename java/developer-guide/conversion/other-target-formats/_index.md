@@ -4,6 +4,7 @@ linktitle: Other target formats
 type: docs
 weight: 12
 url: /java/other-target-formats/
+description: Conversion functionality of Aspose.TeX API solution for Java lets convert LaTeX files to a number of other raster image formats. Here are some code examples.
 ---
 
 ## **Image formats**

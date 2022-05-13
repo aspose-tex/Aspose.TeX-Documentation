@@ -5,7 +5,7 @@ type: docs
 weight: 11
 url: /java/latex-to-pdf/
 keywords: latex to pdf, latex pdf, convert latex to pdf
-description: This page is dedicated to LaTeX to PDF conversion using Aspose.TeX for Java API.
+description: To convert TeX to PDF using Aspose.TeX API solution for Java learn this article to see that describes how to do this and the code examples.
 lastmod: "2021-10-14"
 sitemap:
     changefreq: "weekly"

@@ -3,6 +3,7 @@ title: Installation - Aspose.TeX for C++
 type: docs
 weight: 60
 url: /cpp/installation/
+description: Aspose.TeX API Documentation for C++ can be found in the downloaded ZIP package or gotten from NuGet Gallery, by clicking the “Download package”.
 ---
 
 ## **Installing Aspose.TeX for C++**

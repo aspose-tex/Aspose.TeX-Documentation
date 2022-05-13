@@ -3,6 +3,7 @@ title: Aspose.TeX for C++
 type: docs
 weight: 30
 url: /cpp/
+description: Managing TeX files API solution for C++. The Library provides ways to pass TeX input and obtain output and advanced features like creating your own TeX format.
 is_root: true
 ---
 

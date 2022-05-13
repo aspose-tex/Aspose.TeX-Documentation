@@ -4,6 +4,7 @@ linktitle: Aspose.TeX's input interface
 type: docs
 weight: 14
 url: /net/aspose-tex-input/
+description: Conversion functionality of Aspose.TeX API solution for .NET with TeX, as an input format is explained here with the code examples.
 ---
 
 Please, refer to **Aspose.TeX for .NET** [API reference](https://apireference.aspose.com/tex/net/aspose.tex.io) for formal definitions of I/O implementation.

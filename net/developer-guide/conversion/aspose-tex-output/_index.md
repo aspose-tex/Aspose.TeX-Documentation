@@ -4,6 +4,7 @@ linktitle: Aspose.TeX's output interface
 type: docs
 weight: 15
 url: /net/aspose-tex-output/
+description: Conversion functionality of Aspose.TeX API solution for .NET with TeX, as an output format is explained here with the code examples.
 ---
 
 Please, refer to **Aspose.TeX for .NET** [API reference](https://apireference.aspose.com/tex/net/aspose.tex.io) for formal definitions of I/O implementation.

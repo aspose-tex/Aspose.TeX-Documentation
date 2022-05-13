@@ -4,6 +4,7 @@ linktitle: Feature List
 type: docs
 weight: 30
 url: /net/feature-list/
+description: Add the TeX files manipulation functionality to your own solution. Learn the features Aspose.TeX API solution for .NET offers to you.
 ---
 
 

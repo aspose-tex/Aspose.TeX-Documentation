@@ -4,6 +4,7 @@ linktitle: Other ways to provide the main input file
 type: docs
 weight: 13
 url: /java/other-ways-of-main-input/
+description: Conversion functionality of Aspose.TeX API solution for Java has a Constructor which accepts a stream as the first argument. Here are some code examples.
 ---
 
 ## **Providing the main input file as a stream**

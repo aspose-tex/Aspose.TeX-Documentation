@@ -4,6 +4,7 @@ linktitle: System Requirements
 type: docs
 weight: 50
 url: /java/system-requirements/
+description: Aspose.TeX solution for Java can be used in any development environment that support Java, but there are some environments are explicitly supported.
 ---
 
 ## **Supported Operating Systems**

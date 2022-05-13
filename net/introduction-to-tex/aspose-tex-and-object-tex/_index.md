@@ -3,6 +3,7 @@ title: Aspose.TeX and Object TeX
 type: docs
 weight: 11
 url: /net/aspose-tex-and-object-tex/
+description: TeX is an input and output format of this API solution so here we go with explaining the Object TeX and how it is transformed into a target format.
 ---
 ## **Object TeX**
 Now let's consider the output format.

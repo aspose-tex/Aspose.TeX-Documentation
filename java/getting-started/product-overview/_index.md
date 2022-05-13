@@ -4,6 +4,7 @@ linktitle: Product Overview
 type: docs
 weight: 10
 url: /java/product-overview/
+description: Aspose.TeX is a Java library for typesetting of TeX files. It provides you with the rich functionality like conversion or creating your own TeX format.
 ---
 
 {{% alert color="primary" %}}

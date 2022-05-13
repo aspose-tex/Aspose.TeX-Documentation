@@ -4,6 +4,7 @@ linktitle: Supported File Formats
 type: docs
 weight: 20
 url: /net/supported-file-formats/
+description: This TeX manipulation solution for .NET supports TeX files for input and a variety of output formats like TeX, XPS, PDF, PNG, JPEG, TIFF and PNG.
 ---
 
 ## **Supported File Formats**
