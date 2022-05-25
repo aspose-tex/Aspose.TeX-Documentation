@@ -7,7 +7,7 @@ url: /cpp/aspose-tex-for-cpp-22-5-release-notes/
 
 ## Improvements and Changes
 
-Aspose.TeX for C++ 22.5 is based on [Aspose.TeX for .NET 22.5](/tex/net/aspose-tex-for-net-22-5-release-notes/) and ready for use with Aspose c++ products ver 22.5.
+Aspose.TeX for C++ 22.5 is based on [Aspose.TeX for .NET 22.4](/tex/net/aspose-tex-for-net-22-4-release-notes/) and ready for use with Aspose c++ products ver 22.5.
 
 
 You can consult Aspose.TeX for C++ [API reference](https://apireference.aspose.com/tex/cpp/) for documentation.
