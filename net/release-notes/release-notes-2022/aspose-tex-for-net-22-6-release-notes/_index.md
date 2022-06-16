@@ -7,8 +7,7 @@ url: /net/aspose-tex-for-net-22-6-release-notes/
 
 ## Aspose.TeX 22.6 for .NET has been released!
 
- * The redundancy in API has been fixed.
- * File stream management has been fixed.
+ * A few bugs have been fixed.
 
 | Key | Summary | Category |
 |---|---|---|
