@@ -14,10 +14,10 @@ sitemap:
 
 ## **How to convert LaTeX to PNG**
 
-Let's take a detailed look at the code in C# providing the simplest way to convert LaTeX to PNG format.
+Let's take a detailed look at the code in C++ providing the simplest way to convert LaTeX to PNG format.
 
 {{< blocks/products/pf/agp/feature-section >}}
-{{< app/tex/converter "C++ code example LaTeX to PNG conversion" LTX PNG BMP JPEG TIFF>}}
+{{< app/tex/converter "C++ code example LaTeX to PNG conversion" TEX PNG BMP JPEG TIFF>}}
     System::SharedPtr<TeXOptions> options = TeXOptions::ConsoleAppOptions(TeXConfig::ObjectLaTeX());
 
     options->set_OutputWorkingDirectory(System::MakeObject<OutputFileSystemDirectory>(RunExamples::OutputDirectory));

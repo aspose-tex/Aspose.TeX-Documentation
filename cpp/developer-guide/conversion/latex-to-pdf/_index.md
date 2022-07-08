@@ -14,10 +14,10 @@ sitemap:
 
 ## **How to convert LaTeX to PDF**
 
-Let's take a detailed look at the code in C# providing the simplest way to convert LaTeX to PDF format.
+Let's take a detailed look at the code in C++ providing the simplest way to convert LaTeX to PDF format.
 
 {{< blocks/products/pf/agp/feature-section >}}
-{{< app/tex/converter "C++ code example LaTeX to PNG conversion" LTX PDF>}}
+{{< app/tex/converter "C++ code example LaTeX to PNG conversion" TEX PDF>}}
     System::SharedPtr<TeXOptions> options = TeXOptions::ConsoleAppOptions(TeXConfig::ObjectLaTeX());
 
     options->set_OutputWorkingDirectory(System::MakeObject<OutputFileSystemDirectory>(RunExamples::OutputDirectory));
