@@ -9,7 +9,7 @@ description: Conversion functionality of Aspose.TeX API solution for Java lets c
 
 ## **Image formats**
 
-**Aspose.TeX for Java** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/java/latex-to-png/) using the [ImageDevice](https://apireference.aspose.com/tex/java/com.aspose.tex.rendering/ImageDevice). The only difference is in the type of the [SaveOptions](https://apireference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--) property in the conversion options.
+**Aspose.TeX for Java** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/java/latex-to-png/) using the [ImageDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/ImageDevice). The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--) property in the conversion options.
 
 We won't go into details just because there aren't actually any details.
 
@@ -33,13 +33,13 @@ We won't go into details just because there aren't actually any details.
 
 ## **How to convert LaTeX to XPS**
 
-Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://apireference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to use an instance of the [XpsDevice](https://apireference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice) class.
+Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to use an instance of the [XpsDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice) class.
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-LaTeXToXps-Simplest.java" >}}
 
 ### **An alternative way to write main output XPS file**
 
-There's another constructor of the [XpsDevice](https://apireference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice#XpsDevice-java.io.OutputStream-) class, which allows us to get the resulting XPS file in an alternative way.
+There's another constructor of the [XpsDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice#XpsDevice-java.io.OutputStream-) class, which allows us to get the resulting XPS file in an alternative way.
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-LaTeXToXps-Alternative.java" >}}
 

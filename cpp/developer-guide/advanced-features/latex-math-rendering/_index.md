@@ -56,7 +56,7 @@ The API reference section related to this topic is [here](https://reference.aspo
 
 ```
 
-Let's get to the details. First of all, we create a [rendering options](https://apireference.aspose.com/tex/cpp/class/aspose.te_x.features.math_renderer_options) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
+Let's get to the details. First of all, we create a [rendering options](https://reference.aspose.com/tex/cpp/class/aspose.te_x.features.math_renderer_options) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
 
 Next, we specify the preamble. The default preamble is:
 ```tex

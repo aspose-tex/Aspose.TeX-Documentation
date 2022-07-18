@@ -11,11 +11,11 @@ sitemap:
     priority: 0.8
 ---
 
-The API reference section related to this topic is [here](https://apireference.aspose.com/tex/net/aspose.tex.features). In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:
+The API reference section related to this topic is [here](https://reference.aspose.com/tex/net/aspose.tex.features). In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Features-LaTeXMathRendering.cs" >}}
 
-Let's get to the details. First of all, we create a [rendering options](https://apireference.aspose.com/tex/net/aspose.tex.features/mathrendereroptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
+Let's get to the details. First of all, we create a [rendering options](https://reference.aspose.com/tex/net/aspose.tex.features/mathrendereroptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
 
 Next, we specify the preamble. The default preamble is:
 ```tex
@@ -33,7 +33,7 @@ The next line of the example doesn't make much sense. It just demonstrates that 
 
 And the last option `ShowTerminal` allows you to toggle writing the terminal output to the console.
 
-The method that actually performs the rendering is [MathRenderer.Render()](https://apireference.aspose.com/tex/net/aspose.tex.features/mathrenderer/methods/render). It returns the size of the formula in points as an output argument. To use this size later we declare the variable in the next line.
+The method that actually performs the rendering is [MathRenderer.Render()](https://reference.aspose.com/tex/net/aspose.tex.features/mathrenderer/methods/render). It returns the size of the formula in points as an output argument. To use this size later we declare the variable in the next line.
 
 The stream where the image is to be written is taken by the method as the second argument. We create the stream next.
 
