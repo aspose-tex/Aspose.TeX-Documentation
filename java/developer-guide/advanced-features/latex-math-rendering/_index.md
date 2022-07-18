@@ -15,7 +15,7 @@ In fact, the easiest way to demonstrate the LaTeX math formula rendering feature
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Features-LaTeXMathRendering.java" >}}
 
-Let's get to the details. First of all, we create a [rendering options](https://apireference.aspose.com/tex/java/com.aspose.tex/PngMathRendererOptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
+Let's get to the details. First of all, we create a [rendering options](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRendererOptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
 
 Next, we specify the preamble. The default preamble is:
 ```tex
@@ -33,7 +33,7 @@ The next line of the example doesn't make much sense. It just demonstrates that 
 
 And the last option `ShowTerminal` allows you to toggle writing the terminal output to the console.
 
-The method that actually performs the rendering is [MathRenderer.render()](https://apireference.aspose.com/tex/java/com.aspose.tex/MathRenderer#render-java.lang.String-java.io.OutputStream-com.aspose.tex.MathRendererOptions-com.aspose.tex.Size2D-). It returns the size of the formula in points as an output argument. To use this size later we declare the variable in the next line.
+The method that actually performs the rendering is [MathRenderer.render()](https://reference.aspose.com/tex/java/com.aspose.tex/MathRenderer#render-java.lang.String-java.io.OutputStream-com.aspose.tex.MathRendererOptions-com.aspose.tex.Size2D-). It returns the size of the formula in points as an output argument. To use this size later we declare the variable in the next line.
 
 The stream where the image is to be written is taken by the method as the second argument. We create the stream next.
 

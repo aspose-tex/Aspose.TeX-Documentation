@@ -25,7 +25,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.TeX for .NET Release Notes](net/release-notes)
 - [Aspose.TeX for .NET Product Page](https://products.aspose.com/tex/net)
 - [Install Aspose.TeX for .NET NuGet Package](https://www.nuget.org/packages/Aspose.TeX/)
-- [Aspose.TeX for .NET API Reference Guide](https://apireference.aspose.com/tex/net)
+- [Aspose.TeX for .NET API Reference Guide](https://reference.aspose.com/tex/net)
 - [Aspose.TeX for .NET Free Support Forum](https://forum.aspose.com/c/tex)
 - [Aspose.TeX for .NET Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -46,7 +46,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.TeX for Java Features](/tex/java/feature-list/)
 - [Aspose.TeX for Java Release Notes](/tex/java/release-notes/)
 - [Aspose.TeX for Java Product Page](https://products.aspose.com/tex/java)
-- [Aspose.TeX for Java API Reference Guide](https://apireference.aspose.com/tex/java)
+- [Aspose.TeX for Java API Reference Guide](https://reference.aspose.com/tex/java)
 - [Aspose.TeX for Java Free Support Forum](https://forum.aspose.com/c/tex)
 - [Aspose.TeX for Java Paid Support Helpdesk](https://helpdesk.aspose.com/)
 
@@ -68,7 +68,7 @@ Following are the links to some useful resources you may need to accomplish your
 - [Aspose.TeX for C++ Release Notes](cpp/release-notes)
 - [Aspose.TeX for C++ Product Page](https://products.aspose.com/tex/cpp)
 - [Install Aspose.TeX for C++ NuGet Package](https://www.nuget.org/packages/Aspose.TeX.Cpp/)
-- [Aspose.TeX for C++ API Reference Guide](https://apireference.aspose.com/tex/cpp)
+- [Aspose.TeX for C++ API Reference Guide](https://reference.aspose.com/tex/cpp)
 - [Aspose.TeX for C++ Free Support Forum](https://forum.aspose.com/c/tex)
 - [Aspose.TeX for C++ Paid Support Helpdesk](https://helpdesk.aspose.com/)
 

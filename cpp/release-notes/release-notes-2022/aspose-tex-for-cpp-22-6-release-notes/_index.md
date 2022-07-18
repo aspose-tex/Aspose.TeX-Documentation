@@ -11,7 +11,7 @@ Aspose.TeX for C++ 22.6 is based on [Aspose.TeX for .NET 22.6](/tex/net/aspose-t
 
 The dependency ‘CodePorting.Native Cs2Cpp’ was renamed to CodePorting.Translator Cs2Cpp. From now on, the dependency Nuget package is CodePorting.Translator.Cs2Cpp.Framework. MSBuild and CMake targets are CodePorting.Translator.Cs2Cpp.Framework. Dynamic libraries base name is codeporting.translator.cs2cpp.framework (e. g. codeporting.translator.cs2cpp.framework_vc14x86d.dll for 32-bit Debug Visual Studio version).
 
-You can consult Aspose.TeX for C++ [API reference](https://apireference.aspose.com/tex/cpp/) for documentation.
+You can consult Aspose.TeX for C++ [API reference](https://reference.aspose.com/tex/cpp/) for documentation.
  
 ## Got Queries?
 If you have any query related to Aspose.TeX for C++ API, please feel free to write to reach us on [Aspose.TeX forum](https://forum.aspose.com/c/tex/). We'll be glad to assist you with your inquiries.

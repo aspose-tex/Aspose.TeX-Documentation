@@ -9,7 +9,7 @@ description: Conversion functionality of Aspose.TeX API solution for C++ lets co
 
 ## **Image formats**
 
-**Aspose.TeX for C++** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/cpp/latex-to-png/) using the [ImageDevice](https://apireference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.image_device). The only difference is in the type of the [SaveOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions) property in the conversion options.
+**Aspose.TeX for C++** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/cpp/latex-to-png/) using the [ImageDevice](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.image_device). The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions) property in the conversion options.
 
 We will not sink deep into details just because there are actually no details.
 
@@ -45,7 +45,7 @@ options->set_SaveOptions(System::MakeObject<BmpSaveOptions>());
 
 ## **How to convert LaTeX to XPS**
 
-Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://apireference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions), we have to change the device to an instance of the [XpsDevice](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.xps.xps_device) class.
+Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions), we have to change the device to an instance of the [XpsDevice](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.xps.xps_device) class.
 
 ```C++
 ...
