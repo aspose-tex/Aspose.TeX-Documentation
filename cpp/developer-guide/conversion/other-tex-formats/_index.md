@@ -35,7 +35,7 @@ First, here we use the [TeXConfig.ObjectIniTeX](https://reference.aspose.com/tex
 
 Next, we set up the input and output working directories as usual. The input working directory needs to contain the main format source file and all its dependencies.
 
-And the second key difference is the way we run the job. This time we use the static [CreateFormat()](https://reference.aspose.com/tex/net/aspose.tex/texjob/methods/createformat) method, which together with the options takes the name of the main source file, that must be the same as the format name.
+And the second key difference is the way we run the job. This time we use the static [CreateFormat()](https://reference.aspose.com/tex/net/aspose.tex/texjob/createformat/) method, which together with the options takes the name of the main source file, that must be the same as the format name.
 
 ## **Typesetting a TeX file in your custom format**
 

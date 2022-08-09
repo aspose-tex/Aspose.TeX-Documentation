@@ -9,7 +9,7 @@ description: Conversion functionality of Aspose.TeX API solution for .NET lets c
 
 ## **Image formats**
 
-**Aspose.TeX for .NET** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/net/latex-to-png/) using the [ImageDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.image/imagedevice). The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions) property in the conversion options.
+**Aspose.TeX for .NET** also allows us to convert LaTeX files to a number of other raster image formats. Just in case. All these conversions are performed in the similar way as converting [LaTeX to PNG](/tex/net/latex-to-png/) using the [ImageDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.image/imagedevice/). The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/saveoptions/) property in the conversion options.
 
 We will not sink deep into details just because there are actually no details.
 
@@ -33,13 +33,13 @@ We will not sink deep into details just because there are actually no details.
 
 ## **How to convert LaTeX to XPS**
 
-Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/properties/saveoptions), we have to change the device to an instance of the [XpsDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.xps/xpsdevice) class.
+Another target format is [XPS](https://en.wikipedia.org/wiki/Open_XML_Paper_Specification). The conversion to XPS is just as simple, except that in addition to the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/saveoptions/), we have to change the device to an instance of the [XpsDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.xps/xpsdevice/) class.
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToXps-Simplest.cs" >}}
 
 ### **An alternative way to write main output XPS file**
 
-There's another constructor of the [XpsDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.xps/xpsdevice/constructors/2) class, which lets us get the resulting XPS file in an alternative way.
+There's another constructor of the [XpsDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.xps/xpsdevice/xpsdevice/) class, which lets us get the resulting XPS file in an alternative way.
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToXps-Alternative.cs" >}}
 

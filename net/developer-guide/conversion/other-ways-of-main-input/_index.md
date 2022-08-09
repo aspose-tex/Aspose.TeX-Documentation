@@ -9,7 +9,7 @@ description: Conversion functionality of Aspose.TeX API solution for .NET has a 
 
 ## **Providing the main input file as a stream**
 
-Up to this point, we only knew how to pass the [main input file](/tex/net/tex-io/#tex-input) as a file name, whether fully specified or in short form, whether with an extension or without it. But there's another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/constructors/1) of the `TeXJob` class, which takes a stream as the first argument. This is convenient if for some reason we have the main input file in a form other then a file on the disk file system. Here's how it can be implemented:
+Up to this point, we only knew how to pass the [main input file](/tex/net/tex-io/#tex-input) as a file name, whether fully specified or in short form, whether with an extension or without it. But there's another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which takes a stream as the first argument. This is convenient if for some reason we have the main input file in a form other then a file on the disk file system. Here's how it can be implemented:
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-InputStream.cs" >}}
 
@@ -17,7 +17,7 @@ Note that all output files will have the name *texput*. That's because the engin
 
 ## **Entering the main input file from the terminal**
 
-There's yet another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/constructors/main) of the `TeXJob` class, which doesn't let us specify the input at all. So what is such TeX job going to process, you may wonder? This time we will need an input terminal. The engine will ask us to enter the file name from the terminal.
+There's yet another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which doesn't let us specify the input at all. So what is such TeX job going to process, you may wonder? This time we will need an input terminal. The engine will ask us to enter the file name from the terminal.
 
 Here is the code:
 
