@@ -15,6 +15,16 @@ url: /net/aspose-tex-for-net-22-8-release-notes/
  
 ## Public API
 ### Added APIs
+ * Type Aspose.TeX.IO.NondisposableMemoryStream
+ * Method Aspose.TeX.IO.NondisposableMemoryStream.#ctor
+ * Method Aspose.TeX.IO.NondisposableMemoryStream.#ctor(System.IO.Stream)
+ * Method Aspose.TeX.IO.NondisposableMemoryStream.Dispose(System.Boolean)
+ * Type Aspose.TeX.Metered
+ * Method Aspose.TeX.Metered.#ctor
+ * Method Aspose.TeX.Metered.SetMeteredKey(System.String,System.String)
+ * Method Aspose.TeX.Metered.GetConsumptionQuantity
+ * Method Aspose.TeX.Metered.GetConsumptionCredit
+ * Property Aspose.TeX.Presentation.Image.ImageSaveOptions.DeviceWritesImages
 
 ### Renamed APIs
 
