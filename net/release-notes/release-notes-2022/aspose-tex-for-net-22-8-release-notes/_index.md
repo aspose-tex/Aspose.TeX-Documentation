@@ -7,7 +7,7 @@ url: /net/aspose-tex-for-net-22-8-release-notes/
 
 ## Aspose.TeX 22.8 for .NET has been released!
 
- * A few bugs have been fixed.
+ * Metered licensing support has been implemented.
 
 | Key | Summary | Category |
 |---|---|---|
