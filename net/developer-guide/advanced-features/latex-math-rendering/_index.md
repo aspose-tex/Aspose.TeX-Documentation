@@ -11,9 +11,11 @@ sitemap:
     priority: 0.8
 ---
 
+## ** How to render a LaTeX math formula to PNG**
+
 The API reference section related to this topic is [here](https://reference.aspose.com/tex/net/aspose.tex.features/). In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:
 
-{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Features-LaTeXMathRendering.cs" >}}
+{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Features-PngLaTeXMathRendering.cs" >}}
 
 Let's get to the details. First of all, we create a [rendering options](https://reference.aspose.com/tex/net/aspose.tex.features/mathrendereroptions/) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
 
@@ -43,4 +45,17 @@ The last lines of the example print two artifacts of math formula rendering - th
 
 This is the most general use case for LaTeX math formula rendering.
 
-**You may also check out the free [web app](https://products.aspose.app/tex/mathrenderer) built based on the feature implemented within [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
+**You may also check out the free [web app](https://products.aspose.app/tex/equation-editor/png) built based on the feature implemented within [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
+
+## **How to render a LaTeX math formula to SVG**
+
+In much the same way, we can render a LaTeX math formula to SVG format.
+
+{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Features-SvgLaTeXMathRendering.cs" >}}
+
+The differences are:
+ * We use [SvgMathRendererOptions](https://reference.aspose.com/tex/net/aspose.tex.features/svgmathrendereroptions/) instead of [PngMathRendererOptions](https://reference.aspose.com/tex/net/aspose.tex.features/pngmathrendereroptions/).
+ * We don't specify resolution.
+ * We use [SvgMathRenderer](https://reference.aspose.com/tex/net/aspose.tex.features/svgmathrenderer/) instead of [PngMathRenderer](https://reference.aspose.com/tex/net/aspose.tex.features/pngmathrenderer/).
+
+**You may also check out the free [web app](https://products.aspose.app/tex/equation-editor/svg) built based on the feature implemented within [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**

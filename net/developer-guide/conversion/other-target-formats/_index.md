@@ -46,3 +46,11 @@ There's another constructor of the [XpsDevice](https://reference.aspose.com/tex/
 The effect is the same as we get [here](/tex/net/latex-to-pdf/#an-alternative-way-to-write-main-output-pdf-file).
 
 **You may also check out the free LaTeX-to-XPS conversion [web app](https://products.aspose.app/tex/conversion/latex-to-xps) built based on [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
+
+## **How to convert LaTeX to SVG**
+
+And yet another target format is [SVG](https://ru.wikipedia.org/wiki/SVG). The conversion to SVG is just as simple, except that in addition to the [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/saveoptions/), we have to change the device to an instance of the [SvgDevice](https://reference.aspose.com/tex/net/aspose.tex.presentation.svg/svgdevice/) class.
+
+{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToSvg-Simplest.cs" >}}
+
+**You may also check out the free LaTeX-to-SVG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-svg) built based on [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
