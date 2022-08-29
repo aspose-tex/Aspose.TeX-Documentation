@@ -11,7 +11,7 @@ sitemap:
     priority: 0.8
 ---
 
-## ** How to render a LaTeX math formula to PNG**
+## **How to render a LaTeX math formula to PNG**
 
 The API reference section related to this topic is [here](https://reference.aspose.com/tex/net/aspose.tex.features/). In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:
 

@@ -28,11 +28,11 @@ LaTeX has a feature to automatically generate a title from some definitions in t
 
 ## **How to ignore missing packages**
 
-We may want to convert a LaTeX file that references some package that is not supported by the Aspose.TeX for .NET library. In this case, the TeX engine will will halt with an error when trying to load the package. To avoid this, we can use the following option:
+We may want to convert a LaTeX file that references some packages that are not supported by the Aspose.TeX for .NET library. In this case, the TeX engine will halt with an error when trying to load such a package. To avoid this, we can use the following option:
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-IgnoreMissingPackages.cs" >}}
 
-## **How to avoid ligatures construction**
+## **How to avoid building ligatures**
 
 Normally, the TeX engine builds ligatures for certain pairs of characters if the font provides data required to do so. We can instruct the engine to skip ligature building with the following code:
 
