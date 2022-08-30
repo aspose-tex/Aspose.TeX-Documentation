@@ -54,7 +54,7 @@ In much the same way, we can render a LaTeX math formula to SVG format.
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Features-SvgLaTeXMathRendering.java" >}}
 
 The differences are:
- * We use [SvgMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRendererOptions) instead of [PngMathRendererOptions]() instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
+ * We use [SvgMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRendererOptions) instead of [PngMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRendererOptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
 ).
  * We don't specify resolution.
  * We use [SvgMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRenderer) instead of [PngMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRenderer).
