@@ -17,7 +17,7 @@ First you need to specify Aspose Repository configuration / location in your Mav
      <repository>
          <id>snapshots</id>
          <name>repo</name>
-         <url>http://repository.aspose.com/repo/</url>
+         <url>https://releases.aspose.com/java/repo/</url>
      </repository>
 </repositories>
 ```
