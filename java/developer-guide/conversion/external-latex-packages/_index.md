@@ -50,7 +50,7 @@ After running a TeX job with this option (don't forget to adjust the other optio
 
 Here is the complete source code for the example:
 
-{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-RequiredInput-FileSystem.java" >}}
+{{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-RequiredInput-FileSystem.java" >}}
 
 ### **Archived required input (`pgfplots` package)**
 
@@ -93,11 +93,14 @@ On the 3rd line, we can see that the file requires the `pgfplots` package, which
 And this is how we specify the access to these source files:
 
 ```Java
-using (Stream zipStream = File.Open("path-to-zip-with-pgfplots-sources"), FileMode.Open))
-{
+final Stream zipStream = File.Open("path-to-zip-with-pgfplots-sources"), FileMode.Open))
+try {
     ...
-    options.RequiredInputDirectory = new InputZipDirectory(zipStream);
+    options.setRequiredInputDirectory(new InputZipDirectory(zipStream));
     ...
+} finally {
+    if (zipStream != null)
+        zipStream.close();
 }
 
 ```
@@ -108,7 +111,7 @@ After running a TeX job with this option, we get the output document:
 
 Here is the complete source code for the example:
 
-{{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-RequiredInput-Zip.cs" >}}
+{{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-RequiredInput-Zip.java" >}}
 
 ### **Restrictions**
 
