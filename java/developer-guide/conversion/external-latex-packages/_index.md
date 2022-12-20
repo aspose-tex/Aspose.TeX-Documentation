@@ -4,12 +4,12 @@ linktitle: External LaTeX packages
 type: docs
 weight: 19
 url: /java/external-latex-packages/
-description: Conversion functionality of Aspose.TeX API solution for Java has a feature that allows using external packages, i.e. the packages that are not included in the library itself. Here are examples with fancybox and pgfplots packages.
+description: There is a feature in the conversion functionality of Aspose.TeX API solution for Java that allows using external packages, i.e. the packages that are not included in the library itself. Here are examples with fancybox and pgfplots packages.
 ---
 
 ## **External LaTeX packages**
 
-The **Aspose.TeX** library includes a number of common LaTeX packages. For example, `eurosym`, `geometry`, `graphics/graphicx`, `hyperref`, `pgf/tikz`, `pict2e`, `xcolor`. So you don't have to worry about how to provide these packages to the library's TeX engine. But sometimes (or quite often) your LaTeX file may require a package beyond the "natively" supported "bundle" of packages. If this is the case, you can try to provide the required input, i.e. required package's source files, via the [RequiredInputDirectory](https://reference.aspose.com/tex/net/aspose.tex/texoptions/requiredinputdirectory/) option of the [TeXOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/) class instance. We will see how this works with two examples.
+There is a number of common LaTeX packages included in the **Aspose.TeX** library for Java. For example, `eurosym`, `geometry`, `graphics/graphicx`, `hyperref`, `pgf/tikz`, `pict2e`, `xcolor`. So you don't have to take care about how to provide these packages to the library's TeX engine. But sometimes (maybe often) your LaTeX file may require a package beyond the "natively" supported "bundle" of packages. In this case, you can try to provide the required input, i.e. required package's source files, using the [setRequiredInputDirectory()](https://reference.aspose.com/tex/java/com.aspose.tex/texoptions/#setRequiredInputDirectory-com.aspose.tex.IInputWorkingDirectory-) method of the [TeXOptions](https://reference.aspose.com/tex/java/com.aspose.tex/texoptions/) class instance. We will see how this works with two examples.
 
 ### **Unpacked required input (`fancybox` package)**
 
@@ -38,7 +38,7 @@ Test: \fbox{
 \end{document}
 ```
 
-On the 3rd line, we can see that the file requires the `fancybox` package, which is not "natively" supported. Let's also assume that we have the `fancybox` package source file. It is a simple package, so it really consists of a single file. We can place this file anywhere in our file system and specify the directory path as simply as shown below:
+On the 3rd line, we see that the file requires the `fancybox` package, which is not "natively" supported. We also assume that we have the `fancybox` package source file. It is a simple package, so it really consists of just one file. We can place this file anywhere in our file system and specify the directory path as simply as follows:
 
 ```Java
 options.setRequiredInputDirectory(new InputFileSystemDirectory("path-to-directory-where-fancybox.sty-located"));
@@ -54,7 +54,7 @@ Here is the complete source code for the example:
 
 ### **Archived required input (`pgfplots` package)**
 
-Let's now say that we have the following also quite simple LaTeX file, which is `required-input-zip.tex` from our example solution:
+Let's now assume that we have the following also quite simple LaTeX file, which is `required-input-zip.tex` from our example solution:
 ```tex
 \documentclass{article}
 \usepackage[margin=0.25in]{geometry}
@@ -86,11 +86,11 @@ First example is 2D and 3D math expressions plotted side-by-side.
 \end{document}
 ```
 
-On the 3rd line, we can see that the file requires the `pgfplots` package, which is also not "natively" supported. Again, we assume that we have the `pgfplots` package source files. It's quite a large number of files that are divided between two locations if you find them in the installation directory of any LaTeX typesetting application. You can find `pgfplots` folder at both `\tex\generic` and `\tex\latex` folders. And the contents of both these folders must be provided as required input to the Aspose.TeX library. We want these source file to be packaged in a ZIP archive, so here is the archive's layout:
+On the 3rd line, we see that the file requires the `pgfplots` package, which is also not "natively" supported. Again, we assume that we have the `pgfplots` package source files. It's quite a large set of files that are divided between two locations if you find them in the installation directory of any LaTeX typesetting application. You can find `pgfplots` folder at both `\tex\generic` and `\tex\latex` folders. And the contents of both these folders must be provided as required input to the Aspose.TeX library. We want these source file to be packaged in a ZIP archive, so here is the archive's layout:
 
 ![](pgfplots-zip-layout.png)
 
-And this is how we specify the access to these source files:
+And here is how we specify the access to these source files:
 
 ```Java
 final Stream zipStream = File.Open("path-to-zip-with-pgfplots-sources"), FileMode.Open))
@@ -113,8 +113,13 @@ Here is the complete source code for the example:
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-RequiredInput-Zip.java" >}}
 
+---
+**NOTE**
+The result was verified using the `pgfplots` package version 1.18.1. While the version of the `pfg` package included in the **Aspose.TeX** library is 3.1.9a.
+---
+
 ### **Restrictions**
 
-It may happen that a package required by your LaTeX file is developed under the `LaTeX3e` kernel. Such a package will most likely not work with the **Aspose.TeX** library since the latter is based on the `LaTeX2e` kernel.
+A package required by your LaTeX file may be developed under the `LaTeX3e` kernel. Such a package will most likely not work with the **Aspose.TeX** library since the latter is based on the `LaTeX2e` kernel.
 
-It may also happen that a package required by your LaTeX file uses device-dependent primitive control sequences that are not supported by the **Aspose.TeX** library's `Object TeX` engine. Such a package, unfortunately, will not work for sure.
+Also, a package required by your LaTeX file may directly call device-dependent primitive commands that are not supported by the **Aspose.TeX** library's `Object TeX` engine. Such a package, unfortunately, will not work for sure.
