@@ -1,13 +1,13 @@
 ---
-title: Providing external packages as required input | .NET
-linktitle: Providing external packages as required input
+title: External LaTeX packages | .NET
+linktitle: External LaTeX packages
 type: docs
 weight: 19
-url: /net/external-packages/
-description: Conversion functionality of Aspose.TeX API solution for .NET has a Constructor which accepts a stream as the first argument. Here are some code examples.
+url: /net/external-latex-packages/
+description: Conversion functionality of Aspose.TeX API solution for .NET has a feature that allows using external packages, i.e. the packages that are not included in the library itself. Here are examples with fancybox and pgfplots packages.
 ---
 
-## **Providing external packages as required input**
+## **External LaTeX packages**
 
 The **Aspose.TeX** library includes a number of common LaTeX packages. For example, `eurosym`, `geometry`, `graphics/graphicx`, `hyperref`, `pgf/tikz`, `pict2e`, `xcolor`. So you don't have to worry about how to provide these packages to the library's TeX engine. But sometimes (or quite often) your LaTeX file may require a package beyond the "natively" supported "bundle" of packages. If this is the case, you can try to provide the required input, i.e. required package's source files, via the [RequiredInputDirectory](https://reference.aspose.com/tex/net/aspose.tex/texoptions/requiredinputdirectory/) option of the [TeXOptions](https://reference.aspose.com/tex/net/aspose.tex/texoptions/) class instance. We will see how this works with two examples.
 
