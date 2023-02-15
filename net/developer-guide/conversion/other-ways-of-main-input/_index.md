@@ -1,5 +1,5 @@
 ---
-title: Other ways to provide the main input file | .NET
+title: Other ways to provide main input file | .NET
 linktitle: Other ways to provide the main input file
 type: docs
 weight: 13

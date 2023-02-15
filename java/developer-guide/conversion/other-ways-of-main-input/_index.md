@@ -1,5 +1,5 @@
 ---
-title: Other ways to provide the main input file | Java
+title: Other ways to provide main input file | Java
 linktitle: Other ways to provide the main input file
 type: docs
 weight: 13

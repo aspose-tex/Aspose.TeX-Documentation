@@ -3,6 +3,7 @@ title: Aspose.TeX for .NET 22.2 Release Notes
 type: docs
 weight: 20
 url: /net/aspose-tex-for-net-22-2-release-notes/
+description: C# .NET API Solution for developers to manipulate and process TeX and LaTeX files. Release Notes of Aspose.TeX API solution for .NET | Release 2022.02
 ---
 
 ## Aspose.TeX 22.2 for .NET has been released!

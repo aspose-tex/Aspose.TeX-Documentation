@@ -3,6 +3,7 @@ title: Aspose.TeX for Java 22.11 Release Notes
 type: docs
 weight: 110
 url: /java/aspose-tex-for-java-22-11-release-notes/
+description: Java API Solution for developers to manipulate and process TeX and LaTeX files. Updates of Aspose.TeX API solution for Java | Release 2022.11
 ---
 
 ## Aspose.TeX 22.11 for Java has been released!

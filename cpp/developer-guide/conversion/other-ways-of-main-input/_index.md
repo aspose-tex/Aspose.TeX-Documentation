@@ -1,5 +1,5 @@
 ---
-title: Other ways to provide the main input file | C++
+title: Other ways to provide main input file | C++
 linktitle: Other ways to provide the main input file
 type: docs
 weight: 13

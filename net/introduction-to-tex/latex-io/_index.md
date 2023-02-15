@@ -1,5 +1,6 @@
 ---
-title: LaTeX I/O
+title: LaTeX I/O | .NET
+linktitle: LaTeX I/O
 type: docs
 weight: 17
 url: /net/latex-io/

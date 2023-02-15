@@ -4,7 +4,7 @@ linktitle: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /java/latex-math-formula-rendering/
-description: Aspose.TeX API solution for Java LaTeX math formulas rendering is described in this article. Here you will find code examples on how to use the functionality.
+description: LaTeX math formulas rendering within Aspose.TeX API for Java is described in this article. Learn the code examples of how to use the functionality.
 lastmod: "2021-10-14"
 sitemap:
     changefreq: "weekly"

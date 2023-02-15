@@ -3,6 +3,7 @@ title: Aspose.TeX for Java 21.8 Release Notes
 type: docs
 weight: 80
 url: /java/aspose-tex-for-java-21-8-release-notes/
+description: Java API Solution for developers to manipulate and process TeX and LaTeX files. Updates of Aspose.TeX API solution for Java | Release 2021.08
 ---
 
 ## Aspose.TeX 21.8 for Java has been released!
