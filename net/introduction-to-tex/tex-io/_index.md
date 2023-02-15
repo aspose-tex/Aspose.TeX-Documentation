@@ -1,9 +1,10 @@
 ---
-title: TeX I/O
+title: TeX I/O | .NET Solution
+linktitle: TeX I/O
 type: docs
 weight: 12
 url: /net/tex-io/
-description: This page briefly describes the peculiarities of working with TeX as an output or input format. TeX job runs on an explicitly specified file. The file may not contain any data to typeset. 
+description: Fundamentals of working with TeX as an output or input format within Aspose.TeX API. TeX job runs on an explicitly specified file. 
 ---
 
 ## **TeX file**

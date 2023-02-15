@@ -3,7 +3,7 @@ title: Aspose.TeX for Java
 type: docs
 weight: 20
 url: /java/
-description: Managing TeX files API solution for Java. The Library provides ways to pass TeX input and obtain output and advanced features like creating your own TeX format.
+description: Manage TeX files within API solution for Java. The Library provides ways to pass TeX input and obtain output and features like creating your own TeX format
 is_root: true
 ---
 

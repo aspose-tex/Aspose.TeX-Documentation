@@ -4,7 +4,7 @@ linktitle: LaTeX math formulas rendering
 type: docs
 weight: 10
 url: /cpp/latex-math-formula-rendering/
-description: Aspose.TeX API solution for C++ LaTeX math formulas rendering is described in this article. Here you will find code examples on how to use the functionality.
+description: Aspose.TeX API solution for C++ LaTeX math formulas rendering is described in this article. Here you will find code examples of the functionality.
 lastmod: "2021-10-14"
 sitemap:
     changefreq: "weekly"

@@ -3,7 +3,7 @@ title: Aspose.TeX for .NET
 type: docs
 weight: 10
 url: /net/
-description: Managing TeX files API solution for .NET. The Library provides ways to pass TeX input and obtain output and advanced features like creating your own TeX format.
+description: Manage TeX files within API solution for C# .NET. The Library provides ways to pass TeX input and obtain output and advanced features.
 aliases:
   - /display/texnet
 is_root: true

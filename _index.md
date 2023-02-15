@@ -1,5 +1,5 @@
 ---
-title: Aspose.TeX Product Family
+title: Aspose.TeX Product Family | Documentation
 type: docs
 url: /
 keywords: "TeX, Aspose.TeX Features, documentation"

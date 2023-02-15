@@ -4,7 +4,7 @@ linktitle: External LaTeX packages
 type: docs
 weight: 19
 url: /net/external-latex-packages/
-description: Conversion functionality of Aspose.TeX API solution for .NET has a feature that allows using external packages, i.e. the packages that are not included in the library itself. Here are examples with fancybox and pgfplots packages.
+description: Aspose.TeX API for .NET allows using external packages, i.e. the ones not included in the library itself like fancybox and pgfplots packages.
 ---
 
 ## **External LaTeX packages**

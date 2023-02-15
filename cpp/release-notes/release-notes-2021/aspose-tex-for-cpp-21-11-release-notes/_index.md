@@ -3,6 +3,7 @@ title: Aspose.TeX for C++ 21.11 Release Notes
 type: docs
 weight: 8
 url: /cpp/aspose-tex-for-cpp-21-11-release-notes/
+description: C++ API Solution for developers to manipulate and process TeX and LaTeX files. Release Notes of Aspose.TeX API solution for C++ | Release 2021.11
 ---
 
 ## Improvements and Changes

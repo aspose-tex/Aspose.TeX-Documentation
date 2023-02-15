@@ -1,5 +1,6 @@
 ---
-title: What is TeX?
+title: What is TeX? | .NET
+linktitle: What is TeX?
 type: docs
 weight: 10
 url: /net/what-is-tex/
