@@ -18,41 +18,41 @@ description: C# .NET API Solution for developers to manipulate and process TeX a
  
 ## Public API
 ### Added APIs
-Type Aspose.TeX.Features.IRasterRendererOptions
-Property Aspose.TeX.Features.IRasterRendererOptions.Resolution
-Type Aspose.TeX.Features.FigureRenderer
-Method Aspose.TeX.Features.FigureRenderer.#ctor
-Method Aspose.TeX.Features.FigureRenderer.Render(System.String,System.IO.Stream,Aspose.TeX.Features.FigureRendererOptions,System.Drawing.SizeF@)
-Type Aspose.TeX.Features.FigureRendererOptions
-Method Aspose.TeX.Features.FigureRendererOptions.#ctor
-Property Aspose.TeX.Features.FigureRendererOptions.BackgroundColor
-Property Aspose.TeX.Features.FigureRendererOptions.ErrorReport
-Property Aspose.TeX.Features.FigureRendererOptions.LogStream
-Property Aspose.TeX.Features.FigureRendererOptions.Preamble
-Property Aspose.TeX.Features.FigureRendererOptions.RequiredInputDirectory
-Property Aspose.TeX.Features.FigureRendererOptions.Scale
-Property Aspose.TeX.Features.FigureRendererOptions.ShowTerminal
-Type Aspose.TeX.Features.PngFigureRenderer
-Method Aspose.TeX.Features.PngFigureRenderer.#ctor
-Type Aspose.TeX.Features.PngFigureRendererOptions
-Method Aspose.TeX.Features.PngFigureRendererOptions.#ctor
-Property Aspose.TeX.Features.PngFigureRendererOptions.Resolution
-Type Aspose.TeX.Features.SvgFigureRenderer
-Method Aspose.TeX.Features.SvgFigureRenderer.#ctor
-Type Aspose.TeX.Features.SvgFigureRendererOptions
-Method Aspose.TeX.Features.SvgFigureRendererOptions.#ctor
+ * Type Aspose.TeX.Features.IRasterRendererOptions
+ * Property Aspose.TeX.Features.IRasterRendererOptions.Resolution
+ * Type Aspose.TeX.Features.FigureRenderer
+ * Method Aspose.TeX.Features.FigureRenderer.#ctor
+ * Method Aspose.TeX.Features.FigureRenderer.Render(System.String,System.IO.Stream,Aspose.TeX.Features.FigureRendererOptions,System.Drawing.SizeF@)
+ * Type Aspose.TeX.Features.FigureRendererOptions
+ * Method Aspose.TeX.Features.FigureRendererOptions.#ctor
+ * Property Aspose.TeX.Features.FigureRendererOptions.BackgroundColor
+ * Property Aspose.TeX.Features.FigureRendererOptions.ErrorReport
+ * Property Aspose.TeX.Features.FigureRendererOptions.LogStream
+ * Property Aspose.TeX.Features.FigureRendererOptions.Preamble
+ * Property Aspose.TeX.Features.FigureRendererOptions.RequiredInputDirectory
+ * Property Aspose.TeX.Features.FigureRendererOptions.Scale
+ * Property Aspose.TeX.Features.FigureRendererOptions.ShowTerminal
+ * Type Aspose.TeX.Features.PngFigureRenderer
+ * Method Aspose.TeX.Features.PngFigureRenderer.#ctor
+ * Type Aspose.TeX.Features.PngFigureRendererOptions
+ * Method Aspose.TeX.Features.PngFigureRendererOptions.#ctor
+ * Property Aspose.TeX.Features.PngFigureRendererOptions.Resolution
+ * Type Aspose.TeX.Features.SvgFigureRenderer
+ * Method Aspose.TeX.Features.SvgFigureRenderer.#ctor
+ * Type Aspose.TeX.Features.SvgFigureRendererOptions
+ * Method Aspose.TeX.Features.SvgFigureRendererOptions.#ctor
 
 ### Renamed APIs
 
 ### Modified APIs
 
 ### Removed APIs
-Property Aspose.TeX.Features.MathRendererOptions.BackgroundColor
-Property Aspose.TeX.Features.MathRendererOptions.ErrorReport
-Property Aspose.TeX.Features.MathRendererOptions.LogStream
-Property Aspose.TeX.Features.MathRendererOptions.Preamble
-Property Aspose.TeX.Features.MathRendererOptions.Scale
-Property Aspose.TeX.Features.MathRendererOptions.ShowTerminal
+ * Property Aspose.TeX.Features.MathRendererOptions.BackgroundColor
+ * Property Aspose.TeX.Features.MathRendererOptions.ErrorReport
+ * Property Aspose.TeX.Features.MathRendererOptions.LogStream
+ * Property Aspose.TeX.Features.MathRendererOptions.Preamble
+ * Property Aspose.TeX.Features.MathRendererOptions.Scale
+ * Property Aspose.TeX.Features.MathRendererOptions.ShowTerminal
 
 ## Got Queries?
 If you have any query related to Aspose.TeX for .NET API, please feel free to write to reach us on [Aspose.TeX forum](https://forum.aspose.com/c/tex/). We'll be glad to assist you with your inquiries.
