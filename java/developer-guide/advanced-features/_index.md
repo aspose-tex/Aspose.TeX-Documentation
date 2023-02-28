@@ -1,6 +1,6 @@
 ---
 title: Advanced Features | Java
-linktitle: Advanced Features 
+linktitle: Advanced Features
 type: docs
 weight: 20
 url: /java/advanced-features/
