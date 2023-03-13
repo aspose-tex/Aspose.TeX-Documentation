@@ -13,7 +13,7 @@ sitemap:
 
 ## **How to render a LaTeX math formula to PNG**
 
-In fact, the easiest way to demonstrate the LaTeX math formula rendering feature is to start with the example. Here it is:
+In fact, the easiest way to demonstrate the **LaTeX math formula** rendering feature is to start with the example. Here it is:
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Features-PngLaTeXMathRendering.java" >}}
 
@@ -37,13 +37,17 @@ And the last option `ShowTerminal` allows you to toggle writing the terminal out
 
 The method that actually performs the rendering is [MathRenderer.render()](https://reference.aspose.com/tex/java/com.aspose.tex/MathRenderer#render-java.lang.String-java.io.OutputStream-com.aspose.tex.MathRendererOptions-com.aspose.tex.Size2D-). It returns the size of the formula in points as an output argument. To use this size later we declare the variable in the next line.
 
-The stream where the image is to be written is taken by the method as the second argument. We create the stream next.
+The stream where the image is to be written is accepted by the method as the second argument. We create the stream next.
 
-And finally, we call the `MathRenderer.render()` method itself, passing options as the third argument. The LaTeX code of the formula is passed as a string through the first argument.
+And finally, we call the `MathRenderer.render()` method itself, passing options as the third argument. The LaTeX code of the formula is passed as the first argument.
 
 The last lines of the example print two artifacts of math formula rendering - the size of the formula and the brief error report (in case there were errors).
 
-This is the most general use case for LaTeX math formula rendering.
+Here is the result of rendering.
+
+[<img src="math-formula.png" title="LaTeX Figure rendering to PNG">](math-formula.png)
+
+This is the most general use case for **LaTeX math formula** rendering.
 
 **You may also check out the free [web app](https://products.aspose.app/tex/equation-editor/png) built based on the feature implemented within [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/java/) is the Java version page.**
 
@@ -54,9 +58,13 @@ In much the same way, we can render a LaTeX math formula to SVG format.
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Features-SvgLaTeXMathRendering.java" >}}
 
 The differences are:
- * We use [SvgMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRendererOptions) instead of [PngMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRendererOptions) instance, similar to the TeX/LaTeX typesetting. We do it here simultaneously specifying the output image resolution.
+ * We use [SvgMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRendererOptions) class instead of [PngMathRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRendererOptions).
 ).
  * We don't specify resolution.
- * We use [SvgMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRenderer) instead of [PngMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRenderer).
+ * We use [SvgMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/SvgMathRenderer) class instead of [PngMathRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/PngMathRenderer).
+
+Here is the result:
+
+[<img src="math-formula.svg" title="LaTeX Math Formula rendering to SVG">](math-formula.svg)
 
 **You may also check out the free [web app](https://products.aspose.app/tex/equation-editor/svg) built based on the feature implemented within [Aspose.TeX for .NET API](https://products.aspose.com/tex/net/).**
