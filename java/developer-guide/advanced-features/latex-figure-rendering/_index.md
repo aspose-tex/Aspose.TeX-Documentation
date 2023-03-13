@@ -11,7 +11,7 @@ sitemap:
     priority: 0.8
 ---
 
-It may happen that you want to extract some content (a drawing, a writting, a plot, etc.) from a LaTeX file as a separately rendered piece, or a *"figure"*, regardless of its place on an output document page. An illustration for your publication on the Internet, for example, is the case. Our API can help you with the task. There are two available target formats - PNG and SVG. Just like in LaTeX math formula rendering. We must also note that **LaTeX figure rendering** is a generalization of [LaTeX math formula rendering](/tex/java/latex-math-formula-rendering).
+It may happen that you want to extract some content (a drawing, a writing, a plot, etc.) from a LaTeX file as a separately rendered piece, or a *"figure"*, regardless of its place on an output document page. An illustration for your publication on the Internet, for example, is the case. Our API can help you with the task. There are two available target formats - PNG and SVG. Just like in LaTeX math formula rendering. We must also note that **LaTeX figure rendering** is a generalization of [LaTeX math formula rendering](/tex/java/latex-math-formula-rendering).
 
 ## **How to render a LaTeX figure to PNG**
 
@@ -28,7 +28,7 @@ Next, we specify the preamble. There's no default preamble for LaTeX figure rend
 
 Then we instruct the renderer to scale the output by 300%.
 
-The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenience option.
+The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenient option.
 
 The next line of the example doesn't make much sense. It just demonstrates that you can direct the log output to some stream.
 
@@ -56,7 +56,7 @@ In much the same way, we can render a LaTeX figure to SVG format.
 
 The differences are:
  * We use [SvgFigureRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/SvgFigureRendererOptions) class instead of [PngFigureRendererOptions](https://reference.aspose.com/tex/java/com.aspose.tex/PngFigureRendererOptions).
- * We don't specify resolution.
+ * We don't specify the resolution.
  * We use [SvgFigureRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/SvgFigureRenderer) class instead of [PngFigureRenderer](https://reference.aspose.com/tex/java/com.aspose.tex/PngFigureRenderer).
  
 Here is the result:

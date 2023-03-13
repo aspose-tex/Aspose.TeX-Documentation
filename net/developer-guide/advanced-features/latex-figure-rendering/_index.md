@@ -11,7 +11,7 @@ sitemap:
     priority: 0.8
 ---
 
-Sometimes you may want to extract some content from a LaTeX file as a separately rendered piece, or a *"figure"*, without any connection to the page layout. It can be an illustration for your publication on the Internet, for example. You can do it with our API. As for the target formats, there are two options - PNG and SVG. As is in case with the LaTeX math formula rendering feature. It's also worth noting that **LaTeX figure rendering** is a generalization of [LaTeX math formula rendering](/tex/net/latex-math-formula-rendering).
+Sometimes you may want to extract some content from a LaTeX file as a separately rendered piece, or a *"figure"*, without any connection to the page layout. It can be an illustration for your publication on the Internet, for example. You can do it with our API. As for the target formats, there are two options - PNG and SVG. As is in the case with the LaTeX math formula rendering feature. It's also worth noting that **LaTeX figure rendering** is a generalization of [LaTeX math formula rendering](/tex/net/latex-math-formula-rendering).
 
 ## **How to render a LaTeX figure to PNG**
 
@@ -28,7 +28,7 @@ Next, we specify the preamble. There's no default preamble for LaTeX figure rend
 
 Then we instruct the renderer to scale the output by 300%.
 
-The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenience option.
+The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenient option.
 
 The next line of the example doesn't make much sense. It just demonstrates that you can direct the log output to some stream.
 
@@ -50,13 +50,13 @@ This is the most general use case for the **LaTeX figure rendering** feature.
 
 ## **How to render a LaTeX figure to SVG**
 
-In much the same way, we can render a LaTeX figure to SVG format.
+In much the same way, we can render a LaTeX figure in SVG format.
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Features-SvgLaTeXFigureRendering.cs" >}}
 
 The differences are:
  * We use [SvgFigureRendererOptions](https://reference.aspose.com/tex/net/aspose.tex.features/svgfigurerendereroptions/) class instead of [PngFigureRendererOptions](https://reference.aspose.com/tex/net/aspose.tex.features/pngfigurerendereroptions/).
- * We don't specify resolution.
+ * We don't specify the resolution.
  * We use [SvgFigureRenderer](https://reference.aspose.com/tex/net/aspose.tex.features/svgfigurerenderer/) class instead of [PngFigureRenderer](https://reference.aspose.com/tex/net/aspose.tex.features/pngfigurerenderer/).
  
 Here is the result:
