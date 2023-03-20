@@ -2,7 +2,7 @@
 title: Other ways to provide main input file | .NET
 linktitle: Other ways to provide the main input file
 type: docs
-weight: 13
+weight: 14
 url: /net/other-ways-of-main-input/
 description: Conversion functionality of Aspose.TeX API solution for .NET has a Constructor which accepts a stream as the first argument. Here are some code examples.
 ---
