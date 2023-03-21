@@ -11,6 +11,6 @@ If you have already read ["Introduction to TeXs"](/tex/net/introduction-to-tex/)
 
 The chapters of this part will guide you through the conversion features of **Aspose.TeX for .NET**, starting with the simplest use cases for the most popular target formats and ending with advanced fine-tuning options. Taking into account the fact that [LaTeX files](/tex/net/latex-io/#latex-file) are more common nowadays then TeX files in any other format, we will not waste your time telling you about the conversion of the latter. Instead, we will only mention it later.
 
-At this point we need to note that Aspose.TeX's LaTeX support includes all the files of the basic LaTeX system and the files of a number of the most common packages, such as *amsmath*, *geometry*, *graphics* and others. In general, if you get an error regarding a missing package, then your case is a little more complicated then the simplest one. [Here](/tex/net/latex-to-png/#about-input-options) we offer a clue to the solution.
+At this point we need to note that Aspose.TeX's LaTeX support includes all the files of the basic LaTeX system and the files of a number of the [most common packages](/tex/net/embedded-packages/), such as *amsmath*, *geometry*, *graphics* and others. In general, if you get an error regarding a missing package, then your case is a little more complicated then the simplest one. [Here](/tex/net/latex-to-png/#about-input-options) we offer a clue to the solution.
 
 **Have fun reading!**
