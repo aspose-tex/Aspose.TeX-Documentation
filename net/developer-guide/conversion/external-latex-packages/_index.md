@@ -59,7 +59,7 @@ Let's now say that we have the following also quite simple LaTeX file, which is 
 \documentclass{article}
 \usepackage[margin=0.25in]{geometry}
 \usepackage{pgfplots}
-\pgfplotsset{width=10cm,compat=1.9}
+\pgfplotsset{width=10cm,compat=1.18}
 \begin{document}
 
 First example is 2D and 3D math expressions plotted side-by-side.
