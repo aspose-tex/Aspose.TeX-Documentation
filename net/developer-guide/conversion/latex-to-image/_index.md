@@ -4,6 +4,7 @@ linktitle: LaTeX to image
 type: docs
 weight: 10
 url: /net/latex-to-image/
+aliases: /net/latex-to-png/
 keywords: latex to png, latex png, latex to image, latex image, latex to jpg, latex jpg, latex to jpeg, latex jpeg, latex to tiff, latex tiff, latex to bmp, latex bmp
 description: To convert TeX to image formats using Aspose.TeX API solution for .NET learn this article to see that describes how to do this and the code examples.
 lastmod: "2021-10-14"
