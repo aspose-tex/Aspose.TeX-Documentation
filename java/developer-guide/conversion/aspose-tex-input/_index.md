@@ -2,7 +2,7 @@
 title: Aspose.TeX's input interface | Java
 linktitle: Aspose.TeX's input interface
 type: docs
-weight: 14
+weight: 15
 url: /java/aspose-tex-input/
 description: Conversion functionality of Aspose.TeX API solution for Java with TeX, as an input format is explained here with the code examples.
 ---

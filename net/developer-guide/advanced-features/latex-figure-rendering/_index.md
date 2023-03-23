@@ -28,7 +28,7 @@ Next, we specify the preamble. There's no default preamble for LaTeX figure rend
 
 Then we instruct the renderer to scale the output by 300%.
 
-The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenient option.
+The next option defines the background color. Unlike with math formula rendering, we don't specify a foreground color since we assume that the colors are entirely under the control of the LaTeX code. In fact, so is the background color, so this is just a convenience option.
 
 The next line of the example doesn't make much sense. It just demonstrates that you can direct the log output to some stream.
 

@@ -5,6 +5,10 @@ type: docs
 weight: 19
 url: /java/external-latex-packages/
 description: Aspose.TeX API for Java allows the use of external packages, i.e. the ones that aren't included in the library itself like fancybox or pgfplots packages.
+lastmod: "2023-03-23"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 ## **External LaTeX packages**

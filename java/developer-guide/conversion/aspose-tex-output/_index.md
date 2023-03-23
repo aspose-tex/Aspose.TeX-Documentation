@@ -2,7 +2,7 @@
 title: Aspose.TeX's output interface | Java
 linktitle: Aspose.TeX's output interface
 type: docs
-weight: 15
+weight: 16
 url: /java/aspose-tex-output/
 description: Conversion functionality of Aspose.TeX API solution for Java with TeX, as an output format is explained here with the code examples.
 ---

@@ -7,7 +7,7 @@ url: /net/latex-to-image/
 aliases: /net/latex-to-png/
 keywords: latex to png, latex png, latex to image, latex image, latex to jpg, latex jpg, latex to jpeg, latex jpeg, latex to tiff, latex tiff, latex to bmp, latex bmp
 description: To convert TeX to image formats using Aspose.TeX API solution for .NET learn this article to see that describes how to do this and the code examples.
-lastmod: "2021-10-14"
+lastmod: "2023-03-23"
 sitemap:
     changefreq: "weekly"
     priority: 0.8
@@ -51,7 +51,7 @@ Transcript written on hello-world.log.
 
 We will find other "fruits" of the engine's labor in the folder that we specified as the output directory. Those will be the transcript file and, **here it is!**, the main output PNG image file(s).
 
-## **An alternative way to write a main output PNG file(s)**
+## **An alternative way to write main output PNG file(s)**
 
 There is another way to get image data as an array of byte arrays, each array in the second dimension represents image data for a separate page.
 
