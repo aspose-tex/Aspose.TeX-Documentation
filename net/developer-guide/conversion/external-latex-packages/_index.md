@@ -5,6 +5,10 @@ type: docs
 weight: 19
 url: /net/external-latex-packages/
 description: Aspose.TeX API for .NET allows using external packages, i.e. the ones not included in the library itself like fancybox and pgfplots packages.
+lastmod: "2023-03-23"
+sitemap:
+    changefreq: "weekly"
+    priority: 0.8
 ---
 
 ## **External LaTeX packages**

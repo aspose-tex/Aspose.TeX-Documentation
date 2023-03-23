@@ -1,23 +1,23 @@
 ---
-title: Other ways to provide main input file | .NET
-linktitle: Other ways to provide the main input file
+title: Other ways to provide main TeX input file | .NET
+linktitle: Other ways to provide the main TeX input file
 type: docs
-weight: 13
+weight: 14
 url: /net/other-ways-of-main-input/
 description: Conversion functionality of Aspose.TeX API solution for .NET has a Constructor which accepts a stream as the first argument. Here are some code examples.
 ---
 
-## **Providing the main input file as a stream**
+## **Providing the main input file to the TeX engine as a stream**
 
-Up to this point, we only knew how to pass the [main input file](/tex/net/tex-io/#tex-input) as a file name, whether fully specified or in short form, whether with an extension or without it. But there's another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which takes a stream as the first argument. This is convenient if for some reason we have the main input file in a form other then a file on the disk file system. Here's how it can be implemented:
+Up to this point, we only knew how to pass the [main input file](/tex/net/tex-io/#tex-input) to the TeX engine as a file name, whether fully specified or in short form, whether with an extension or without it. But there's another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which takes a stream as the first argument. This is convenient if for some reason we have the main input file in a form other than a file on the disk file system. Here's how it can be implemented:
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-InputStream.cs" >}}
 
 Note that all output files will have the name *texput*. That's because the engine can't get any other name anywhere. *texput* is the default job name. [Here](/tex/net/tex-io/#tex-output) and [here](/tex/net/other-options/#how-to-set-the-job-name) are details about job names.
 
-## **Entering the main input file from the terminal**
+## **Entering the main TeX input file from the terminal**
 
-There's yet another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which doesn't let us specify the input at all. So what is such TeX job going to process, you may wonder? This time we will need an input terminal. The engine will ask us to enter the file name from the terminal.
+There's yet another [constructor](https://reference.aspose.com/tex/net/aspose.tex/texjob/texjob/) of the `TeXJob` class, which doesn't let us specify the input at all. So what is such TeX job going to process, you may wonder? This time we will need an input terminal. The TeX engine will ask us to enter the file name from the terminal.
 
 Here is the code:
 

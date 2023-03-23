@@ -1,16 +1,19 @@
 ---
-title: LaTeX to PNG | C++
-linktitle: LaTeX to PNG
+title: LaTeX to image | C++
+linktitle: LaTeX to image
 type: docs
 weight: 10
-url: /cpp/latex-to-png/
-keywords: latex to png, latex png
-description: To convert TeX to PNG using Aspose.TeX API solution for C++ learn this article to see that describes how to do this and the code examples.
-lastmod: "2021-10-14"
+url: /cpp/latex-to-image/
+aliases: /cpp/latex-to-png/
+keywords: latex to png, latex png, latex to image, latex image, latex to jpg, latex jpg, latex to jpeg, latex jpeg, latex to tiff, latex tiff, latex to bmp, latex bmp
+description: To convert TeX to image formats using Aspose.TeX API solution for C++ learn this article that describes how to do this and the code examples.
+lastmod: "2023-03-23"
 sitemap:
     changefreq: "weekly"
     priority: 0.8
 ---
+
+**Aspose.TeX for C++** also allows us to convert LaTeX files to a number of other raster image formats.
 
 ## **How to convert LaTeX to PNG**
 
@@ -28,13 +31,13 @@ Let's take a detailed look at the code in C++ providing the simplest way to conv
 {{< /app/tex/converter >}}
 {{< /blocks/products/pf/agp/feature-section>}}
 
-So, the first thing we need to do (well, sometimes not the very first) is to create an instance of the [TeXOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options) class. The only static method that does this is [ConsoleAppOptions()](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options#ad8aec9c3ff198c9b1e0f36927c44179d), so let's not be puzzled by the meaning of its name. The method takes an [instance](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_config#a8ee52115ae06cd6e97151a456a4dd5ea) of the [TeXConfig](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_config/) class, which is exactly suitable for converting a [LaTeX file](/tex/net/latex-io/#latex-file). This configuration tells the Object TeX engine to load the Object LaTeX format and to be ready to accept the LaTeX file. Object LaTeX format is actually just the [LaTeX](/tex/net/what-is-latex/) format, except that it uses [Object TeX](/tex/net/aspose-tex-and-object-tex/#object-tex) specific primitives to set up the page metrics.
+So, the first thing we need to do (well, sometimes not the very first) is to create an instance of the [TeXOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options) class. The only static method that does this is [ConsoleAppOptions()](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options#ad8aec9c3ff198c9b1e0f36927c44179d), so let's not be puzzled by the meaning of its name. The method takes the [get_ObjectLaTeX() instance](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_config#a8ee52115ae06cd6e97151a456a4dd5ea) of the [TeXConfig](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_config/) class, which is exactly suitable for converting a [LaTeX file](/tex/net/latex-io/#latex-file). This configuration tells the Object TeX engine to load the Object LaTeX format and to be ready to accept the LaTeX file. Object LaTeX format is actually just the [LaTeX](/tex/net/what-is-latex/) format, except that it uses [Object TeX](/tex/net/aspose-tex-and-object-tex/#object-tex) specific primitives to set up the page metrics.
 
 The first of the required options is [OutputWorkingDirectory](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options#aa4f4ea6dab7db5ba1b40800495f16f63) which defines the space, or area, where the TeX output will be written. [Here](/tex/cpp/aspose-tex-output/) are the details about the output directory concept in **Aspose.TeX for C++**. In this example we use the [OutputFileSystemDirectory](https://reference.aspose.com/tex/cpp/class/aspose.te_x.i_o.output_file_system_directory) class, which lets us write the output to the specified directory, or folder.
 
-The second option is a [SaveOptions](https://reference.aspose.com/tex/net/aspose.tex.presentation/saveoptions/) class instance which will control the transformation of the [object model](/tex/net/aspose-tex-and-object-tex/#why-the-new-tex-is-object) to the target format. Since we are converting LaTeX to PNG, it's the [PngSaveOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.png_save_options) class instance, which lets us specify the resolution of the output images.
+The second option is a [SaveOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.save_options/) class instance which will control the transformation of the [object model](/tex/net/aspose-tex-and-object-tex/#why-the-new-tex-is-object) to the target format. Since we are converting LaTeX to PNG, it's the [PngSaveOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.png_save_options) class instance, which lets us specify the resolution of the output images.
 
-Then we need to create an instance of the [TeXJob](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_job) class. Wanting to convert a LaTeX file stored in the file system, we use [this](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_job#a1c23c4138aca10b9cc6ae49d5cedc3db) version of the constructor. We need to specify the full path to the file. Otherwise, the engine will look for it in the current directory (which is [CurrentDirectory](https://docs.microsoft.com/en-us/dotnet/api/system.environment.currentdirectory)) and most likely will not find it. Nevertheless, we may omit the extension if our file has the *.tex* one. The engine will append it automatically. The second argument of the constructor is a [Device](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.device) class instance. Since we are converting LaTeX to PNG, it's an [ImageDevice](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.image_device) class (which is common to all supported image formats) instance. As the last argument, we pass the recently prepared conversion options.
+Next, we need to create an instance of the [TeXJob](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_job) class. Wanting to convert a LaTeX file stored in the file system, we use [this](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_job#a1c23c4138aca10b9cc6ae49d5cedc3db) version of the constructor. We need to specify the full path to the file. Otherwise, the engine will look for it in the current directory (which is [CurrentDirectory](https://docs.microsoft.com/en-us/dotnet/api/system.environment.currentdirectory)) and most likely will not find it. Nevertheless, we may omit the extension if our file has the *.tex* one. The engine will append it automatically. The second argument of the constructor is a [Device](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.device) class instance. Since we are converting LaTeX to PNG, it's an [ImageDevice](https://reference.aspose.com/tex/cpp/class/aspose.te_x.presentation.image.image_device) class (which is common to all supported image formats) instance. As the last argument, we pass the recently prepared conversion options.
 
 All that's left to do now is to [run](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_job#a0bc7f8b329ea1f19cbba84bf2060f6fb) the job.
 
@@ -101,4 +104,36 @@ In case our main input file requires dependencies, for example, packages, that a
 
 Other TeX job options are discussed [here](/tex/cpp/other-options/).
 
-**You may also check out the free LaTeX-to-PNG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-png) built based on [Aspose.TeX for C++ API](https://products.aspose.com/tex/cpp/).**
+**You may also check out the free LaTeX-to-PNG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-png) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
+
+Below, we discuss the LaTeX conversion to other supported raster image formats. We won't go into details just because there aren't actually any details. The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options#ad9ff9be81f8d554a507dd48ec1c583f7) property in the conversion options.
+
+### **How to convert LaTeX to JPEG**
+
+```C++
+...
+// Initialize the options for saving in JPEG format.
+options->set_SaveOptions(System::MakeObject<JpegSaveOptions>());
+```
+
+**You may also check out the free LaTeX-to-JPEG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-jpg) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
+
+### **How to convert LaTeX to TIFF**
+
+```C++
+...
+// Initialize the options for saving in TIFF format.
+options->set_SaveOptions(System::MakeObject<TiffSaveOptions>());
+```
+
+**You may also check out the free LaTeX-to-TIFF conversion [web app](https://products.aspose.app/tex/conversion/latex-to-tiff) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
+
+### **How to convert LaTeX to BMP**
+
+```C++
+...
+// Initialize the options for saving in BMP format.
+options->set_SaveOptions(System::MakeObject<BmpSaveOptions>());
+```
+
+**You may also check out the free LaTeX-to-BMP conversion [web app](https://products.aspose.app/tex/conversion/latex-to-bmp) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
