@@ -16,7 +16,8 @@ sitemap:
 Actually, there are two aspects of LaTeX graphics that are worth mentioning:
  * vector graphics described directly by means of LaTeX/TeX commands and,
  * inclusion of external graphics described by means of external formats, like EPS, PDF or raster PNG and PDF.
-The former one has limited support in the original LaTeX and its packages. It is implemented with help of TeX vertical and horizontal rules. That's because the original LaTeX is based on the original TeX engine, which typsets the input creating files in *DVI* format, which is not suitable for describing either lines and curves or binary raster image data. But engines that are able to output to graphics-supporting formats (like pdfTeX to PDF) can also deal with graphics using format-dependent packages or package features. The latter graphics are not supported in basic LaTeX for the same reason. We will discuss graphics inclusion features below.
+
+The former has limited support in the original LaTeX and its packages. It is implemented with help of TeX vertical and horizontal rules. That's because the original LaTeX is based on the original TeX engine, which produces main output in *DVI* format, which is not suitable for describing either lines and curves or binary raster image data. But engines that are able to output to graphics-supporting formats (like pdfTeX to PDF) can also deal with graphics using format-dependent packages or package features. The latter graphics are not supported in basic LaTeX for the same reason. We will discuss graphics inclusion features below.
 
 ## **The LaTeX `graphics` package and `\includegraphics` command**
 
@@ -98,8 +99,8 @@ You can combine any of the following options, but keep in mind that the order is
 ### Resizing graphics
 
 ```tex
-\includegraphics[width=15mm]{sample-image.png} % changes the width to 10mm preserving the proprtions
-height=15mm,width=25mm]{sample-image.png} % changes both width and height independently
+\includegraphics[width=15mm]{sample-image.png} % changes the width to 15mm preserving the proprtions
+\includegraphics[height=15mm,width=25mm]{sample-image.png} % changes both width and height independently
 ```
 
 ### Rotating graphics
