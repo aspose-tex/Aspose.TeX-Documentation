@@ -7,11 +7,11 @@ url: /net/latex-to-svg/
 description: Conversion functionality of Aspose.TeX API solution for .NET lets convert LaTeX files to SVG formats. Here are some code examples.
 ---
 
-And yet another supported target format is [SVG](https://ru.wikipedia.org/wiki/SVG). **Scalable Vector Graphics (SVG)** is an XML-based vector image format for defining two-dimensional graphics, having support for interactivity and animation.
+And yet another supported target format is [**SVG**](https://ru.wikipedia.org/wiki/SVG). **Scalable Vector Graphics (SVG)** is an XML-based vector image format for defining two-dimensional graphics, having support for interactivity and animation.
 
-SVG images are defined in a vector graphics format and stored in XML text files. SVG images can thus be scaled in size without loss of quality, and SVG files can be searched, indexed, scripted, and compressed. The XML text files can be created and edited with text editors or vector graphics editors, and are rendered by the most-used web browsers.
+**SVG** images are defined in a vector graphics format and stored in XML text files. **SVG** images can thus be scaled in size without loss of quality, and **SVG** files can be searched, indexed, scripted, and compressed. The XML text files can be created and edited with text editors or vector graphics editors, and are rendered by the most-used web browsers.
 
-There is the [**Aspose.SVG**](https://products.aspose.com/svg/) library that provides various features related to SVG. These include creating, loading, editing and converting SVG documents.
+There is the [**Aspose.SVG**](https://products.aspose.com/svg/) library that provides various features related to **SVG**. These include creating, loading, editing and converting **SVG** documents.
 
 ## **How to convert LaTeX to SVG**
 
