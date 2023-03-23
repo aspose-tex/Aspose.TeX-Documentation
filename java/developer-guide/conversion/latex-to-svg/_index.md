@@ -19,7 +19,7 @@ Also, there is the [**Aspose.SVG**](https://products.aspose.com/svg/) library th
 
 ## **How to convert LaTeX to SVG**
 
-The conversion to SVG is just as simple as [conversion to raster image formats](/tex/java/latex-to-image/), except that in addition to the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to change the device to an instance of the [SvgDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/SvgDevice) class.
+The conversion to SVG is just as simple as the [conversion to raster image formats](/tex/java/latex-to-image/), except that in addition to the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to change the device to an instance of the [SvgDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/SvgDevice) class.
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-LaTeXToSvg-Simplest.java" >}}
 

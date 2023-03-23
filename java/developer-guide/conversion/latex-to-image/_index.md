@@ -69,19 +69,19 @@ Other TeX job options are discussed [here](/tex/java/other-options/).
 
 Below, we discuss the LaTeX conversion to other supported raster image formats. We won't go into details just because there aren't actually any details. The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--) property in the conversion options.
 
-### **How to convert LaTeX to JPG**
+## **How to convert LaTeX to JPG**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToJpeg.cs" >}}
 
 **You may also check out the free LaTeX-to-JPG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-jpg) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/java/) is the Java version page.**
 
-### **How to convert LaTeX to TIFF**
+## **How to convert LaTeX to TIFF**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToTiff.cs" >}}
 
 **You may also check out the free LaTeX-to-TIFF conversion [web app](https://products.aspose.app/tex/conversion/latex-to-tiff) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/java/) is the Java version page.**
 
-### **How to convert LaTeX to BMP**
+## **How to convert LaTeX to BMP**
 
 {{< gist "aspose-com-gists" "76c7e5770ac8b3f6d409f6ec60f02030" "Aspose.TeX.Examples-Conversion-LaTeXToBmp.cs" >}}
 

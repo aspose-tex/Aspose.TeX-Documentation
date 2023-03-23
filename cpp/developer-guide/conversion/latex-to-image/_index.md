@@ -108,7 +108,7 @@ Other TeX job options are discussed [here](/tex/cpp/other-options/).
 
 Below, we discuss the LaTeX conversion to other supported raster image formats. We won't go into details just because there aren't actually any details. The only difference is in the type of the [SaveOptions](https://reference.aspose.com/tex/cpp/class/aspose.te_x.te_x_options#ad9ff9be81f8d554a507dd48ec1c583f7) property in the conversion options.
 
-### **How to convert LaTeX to JPEG**
+## **How to convert LaTeX to JPEG**
 
 ```C++
 ...
@@ -118,7 +118,7 @@ options->set_SaveOptions(System::MakeObject<JpegSaveOptions>());
 
 **You may also check out the free LaTeX-to-JPEG conversion [web app](https://products.aspose.app/tex/conversion/latex-to-jpg) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
 
-### **How to convert LaTeX to TIFF**
+## **How to convert LaTeX to TIFF**
 
 ```C++
 ...
@@ -128,7 +128,7 @@ options->set_SaveOptions(System::MakeObject<TiffSaveOptions>());
 
 **You may also check out the free LaTeX-to-TIFF conversion [web app](https://products.aspose.app/tex/conversion/latex-to-tiff) built based on [Aspose.TeX for .NET](https://products.aspose.com/tex/net/) API. [Here](https://products.aspose.com/tex/cpp/) is the C++ version page.**
 
-### **How to convert LaTeX to BMP**
+## **How to convert LaTeX to BMP**
 
 ```C++
 ...
