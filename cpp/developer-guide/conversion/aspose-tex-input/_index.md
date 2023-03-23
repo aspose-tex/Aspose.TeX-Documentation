@@ -2,7 +2,7 @@
 title: Aspose.TeX's input interface | C++
 linktitle: Aspose.TeX's input interface
 type: docs
-weight: 14
+weight: 15
 url: /cpp/aspose-tex-input/
 description: Conversion functionality of Aspose.TeX API solution for C++ with TeX, as an input format is explained here with the code examples.
 ---

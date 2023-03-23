@@ -17,7 +17,7 @@ Another target format is [**XPS**](https://en.wikipedia.org/wiki/Open_XML_Paper_
 There is the [**Aspose.Page**](https://products.aspose.com/page/) library that provides an API for manipulating XPS documents, as well as converting them to PDF and raster image formats.
 
 ## **How to convert LaTeX to XPS**
-The conversion to XPS is just as simple as [conversion to raster image formats](/tex/java/latex-to-image/), except that in addition to the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to use an instance of the [XpsDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice) class.
+The conversion to XPS is just as simple as the [conversion to raster image formats](/tex/java/latex-to-image/), except that in addition to the [SaveOptions](https://reference.aspose.com/tex/java/com.aspose.tex/TeXOptions#getSaveOptions--), we have to use an instance of the [XpsDevice](https://reference.aspose.com/tex/java/com.aspose.tex.rendering/XpsDevice) class.
 
 {{< gist "aspose-com-gists" "67385c777283964d328086603f691ac9" "Aspose.TeX.Examples-Conversion-LaTeXToXps-Simplest.java" >}}
 

@@ -2,7 +2,7 @@
 title: Aspose.TeX's output interface | C++
 linktitle: Aspose.TeX's output interface
 type: docs
-weight: 15
+weight: 16
 url: /cpp/aspose-tex-output/
 description: Conversion functionality of Aspose.TeX API solution for C++ with TeX, as an output format is explained here with the code examples.
 ---
