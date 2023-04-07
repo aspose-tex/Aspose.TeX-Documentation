@@ -12,7 +12,7 @@ description: C# .NET API Solution for developers to manipulate and process TeX a
 | Key | Summary | Category |
 |---|---|---|
 | TEXNET-245 | Turn on font subsetting for SVG math renderering and SVG figure renderering by default | Feature |
-| TEXNET-244 | Fix the longtable package issue reported on Free Support Forum | Bug |
+| TEXNET-244 | Fix the *longtable* package issue reported on Free Support Forum | Bug |
  
 ## Public API
 ### Added APIs
